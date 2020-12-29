@@ -36,6 +36,8 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 Blah blah [see @coile07].
 
+Ver @vestad13 o @staubli13, o @atalay15, @cribb16, @hanel12a y @hanel12b.
+
 
 # Referencias
 
