@@ -1,0 +1,597 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={Incentivos al Retiro},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{Incentivos al Retiro}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\hypertarget{introducciuxf3n}{%
+\section{Introducción}\label{introducciuxf3n}}
+
+Importancia de alargar vida laboral. OCDE 2011.
+
+\hypertarget{teoruxeda}{%
+\subsection{Teoría}\label{teoruxeda}}
+
+En este contexto, dos instrumentos de política clave que han sido
+utilizados por los gobiernos de muchos países han sido la edad mínima de
+retiro (EMR), la edad normal de retiro (ENR) y los ajustes actuariales
+que penalizan a los trabajadores que se retiran antes de la ENR.
+
+Uno de los hechos estilizados es que una gran proporción de los
+trabajadores se retira en la EMR. Citar a ({\textbf{???}}). Para
+Uruguay, ver ({\textbf{???}}). En este contexto, aumentar la edad mínima
+a la que los trabajadores son elegibles para cobrar jubilaciones surge
+como una medida obvia para mejorar la sostenibilidad de los sistemas.
+
+Los ajustes actuariales a las tasas de remplazo también se usan como
+incentivos para que los trabajadores difieran su retiro del mercado
+laboral y/o accedan a jubilaciones.
+
+Desde fines del siglo XX muchos países han implentado cambios en estos
+parámetros para mejorar la sostenibilidad de los sistemas jubilatorios.
+En este trabajo presentamos la evidencia empírica disponible sobre los
+efectos de estas reformas.
+
+Cribb, Emmerson, and Tetlow (2016) identifican 4 mecanismos mediante los
+que la ERA afecta la actividad económica de los trabajadores:
+
+\begin{itemize}
+\tightlist
+\item
+  Primero, cambia las tasas de impuestos relativas al trabajo.
+\item
+  Segundo, reduce el ingreso y la \emph{lifetime wealth} de los
+  individuos porque reduce los ingresos que van a recibir de la
+  seguridad social.
+\item
+  Individuos con restricciones de liquidez pueden verse obligados a
+  seguir trabajando para sostener su consumo.
+\item
+  La edad mínima de retiro puede ser una señal para los trabajadores, de
+  que la edad marcada es la edad \emph{correcta} para jubilarse.
+\end{itemize}
+
+({\textbf{???}}) cita el modelo de Stock y Wise:
+
+Consider that an individual takes the decision regarding the optimal
+date of retirement entry according to the Option Value Model of Stock
+and Wise (1990), i.e.~she compares all possible future streams of
+utility from income and leisure and delays retirement entry if she can
+thereby receive a higher stream of utility.
+
+In this framework, retiring at any early date s instead of any later
+dater t has four effects: (i) it lowers utility due to a loss of wage
+earnings during the period between s and t, (ii) it increases utility
+from leisure during s and t, (iii) it lengthens the period of benefit
+receipt, thereby raising utility according to the amount of benefits
+that are paid between s and t, and (iv) it changes the expected present
+value of future benefits during the remaining lifetime according to the
+pension formula. Hence, retiring at date s instead of t will be
+preferred only if the loss in wage income is at least outweighed by (a)
+the utility from leisure between s and t, (b) the retirement income
+received between s and t, plus (b) the difference in the present values
+of future income if the individual retires at date s instead of date t.
+
+\hypertarget{la-edad-muxednima-de-retiro}{%
+\subsection{La Edad Mínima de
+Retiro}\label{la-edad-muxednima-de-retiro}}
+
+Entre 1980 y 2018, la EMR subió en Bélgica, Dinamarca, Francia,
+Alemania, Japón, Holanda, España, Suecia y el Reino Unido
+(({\textbf{???}})). Como veremos más adelante, las variaciones de este
+parámetro de política pueden usarse para estimar la respuesta en los
+trabajadores con precisión.
+
+\hypertarget{la-edad-normal-de-retiro}{%
+\subsection{La Edad Normal de Retiro}\label{la-edad-normal-de-retiro}}
+
+La ENR también subió generalizadamente en los países de la OCDE.
+
+\hypertarget{ajustes-actuariales}{%
+\subsection{Ajustes actuariales}\label{ajustes-actuariales}}
+
+Los ajustes actuariales penalizan a los trabajadores que se retiran
+antes de la ENR. Dado que al postergar un año el retiro, el trabajador
+contribuye un año más a la seguridad social y recibe un año menos de
+prestaciones, es usual que el valor de estas prestaciones sea mayor
+cuanto más postergue el trabajaro el acceso a las mismas.
+
+Explicar lo del earnings test y el país que no tiene ()
+
+Most countries feature an earnings test at ages before the SEA. This
+forces individuals to stop working when they want to receive social
+security benefits, as benefits are taxed, often dollar-for-dollar,
+against earnings (although a small amount of earnings may be allowed
+without taxation). The decision to claim benefits and the decision to
+exit the labor force, which are independent decisions from an
+individual's point of view, are thus intrinsically combined in these
+countries; this helps to explain why the word ``retirement'' means both
+decisions in these countries. An earnings test is currently in place
+before the SEA in Belgium, Canada, Denmark, Germany, Japan, Spain, and
+the UK; only France eliminated its earnings test during the period we
+examine.
+
+En este trabajo presentamos la literatura empírica relacionada al
+impacto de estos instrumentos sobre la participación laboral y el uso de
+otros programas de la seguridad social (seguro de desempleo, invalidez,
+enfermedad) de la población afectada.
+
+Esta literatura tiene implicancias a la hora de evaluar como
+implementarlas en Uruguay.
+
+Las evaluaciones ex-post de las reformas implementadas en Austria,
+Australia, Alemania y Francia implican que un aumento de 1 o 2 años en
+la edad mínima de retiro tiene un impacto de entre 6.5 y 20 puntos
+porcentuales en la probabilidad de que las personas afectadas se
+encuentren trabajando. Ver!
+
+Por otro lado, Mastrobouni encuentra que
+
+\hypertarget{algunos-conceptos}{%
+\section{Algunos conceptos}\label{algunos-conceptos}}
+
+Caída de la participación masculina en las últimas décadas del siglo XX.
+Citar alguno gráfico. Generosidad de los sistemas de seguridad social y
+las posibilidades de retiro temprano esten atrás de eso.
+
+Literatura original de incentivos al retiro. Diamond y Gruber 1997,
+breve resúmen de la literatura desde los 80s.
+
+Muchos cambios en los sistemas previsionales desde los años 80. Si bien
+es difícil condensar todo en un solo indicador, la orientación general
+de los cambios es hacia fortalecer los incentivos a trabajar.
+({\textbf{???}})
+
+\hypertarget{riqueza-de-la-seguridad-social-ssw}{%
+\subsection{Riqueza de la Seguridad Social
+(SSW)}\label{riqueza-de-la-seguridad-social-ssw}}
+
+Para medir estos incentivos empíricamente, se calcula la riqueza de la
+seguridad social (SSW). Esta medida compara los ingresos que el
+trabajador recibe por trabajar con los cambios en el flujo de
+prestaciones que le paga el sistema de jubilaciones.
+
+La Riqueza de la Seguridad Social (SSW) para una edad de retiro \(h\) es
+el valor actualizado de los beneficios recibidos entre \(h + 1\) y la
+fecha de muerte \(S\).
+
+\[ SSW_{h} = \sum_{s=h+1}^{\S} \rho_{s} B_{s}(h)\]
+
+Para actualizar los beneficios se utiliza el factor de descuento
+\(\rho\), que depende de la probabilidad de sobrevivencia y el factor de
+descuento intertemporal.
+
+Si seguir trabajando un año reduce el flujo de pagos que el individuo
+recibe de la seguridad social, esta diferencia actúa como un impuesto a
+seguir trabajando. Este desincentivo a seguir en la fuerza de trabajo
+una vez alcanzadas las condiciones para acceder a una jubilación
+funciona como un impuesto sobre el trabajo.
+
+\hypertarget{devengamiento-de-la-riqueza-e-impuesto-impluxedcio-al-trabajo}{%
+\subsection{Devengamiento de la Riqueza e impuesto implício al
+trabajo}\label{devengamiento-de-la-riqueza-e-impuesto-impluxedcio-al-trabajo}}
+
+El devengamiento de \(SSW\) es la medida más simple de incentivo a
+trabajar, consiste en calcular el cambio en SSW por permanecer en la
+fuerza de trabajo un año más:
+
+\[ SSA_{a} = SSW_{a+1} - SSW_{a}\]
+
+El impuesto implícito a seguir trabajando se calcula como
+
+\[ \tau_{a} = \frac{-SSA_{a}}{W_{a+1}}\]
+
+El principal problema que tiene es que esta medida solo mira un período
+para adelante, pero la SSA no se incrementa monotónicamente, sino que
+puede tener saltos.
+
+Eso implica que para un trabajador la SSA de un año puede ser baja, pero
+la de 4 años para adelante tener un salto brusco, por lo que el
+trabajador sigue trabajando teniendo ese salto en cuenta.
+
+\hypertarget{peak-value}{%
+\subsubsection{Peak Value}\label{peak-value}}
+
+Para resolver esta limitación, se propone la medida de \emph{Peak
+Value}, que calcula \(PV_{a} = max_{h}(SSW_{h}-SSW_{a})\), o sea, la
+diferencia máxima entre la riqueza de la seguridad social de retirarse
+hoy o retirarse en otra fecha.
+
+\hypertarget{option-value}{%
+\subsubsection{Option Value}\label{option-value}}
+
+Cambios en la edad de elegibilidad. Teoría. Indicadores de incentivos.
+Stock y Wise. (Ver versión de Aguila)
+
+(Rabaté)
+
+Due to credit constraints, individuals may not be able to smooth their
+consumption without delaying their exit from the labor force. It may
+also generate a negative wealth effect, as the maximum duration of
+benefits receipt decreases.
+
+Ver Gustman
+
+\hypertarget{resultados}{%
+\section{Resultados}\label{resultados}}
+
+\hypertarget{microestimation-alemania-inglaterra}{%
+\subsection{Microestimation (Alemania,
+Inglaterra)}\label{microestimation-alemania-inglaterra}}
+
+\hypertarget{muxe9jico-chile-brasil}{%
+\subsection{Méjico, Chile, Brasil}\label{muxe9jico-chile-brasil}}
+
+\hypertarget{evidencia-reciente}{%
+\subsection{Evidencia Reciente}\label{evidencia-reciente}}
+
+Problemas de la evidencia anterior. Ex-ante, basada en simulaciones. La
+evidencia más reciente consiste en evaluar los efectos observados de
+medidas efectivamente implementadas.
+
+Los estudio ex-ante estiman menores impactos de la seguridad social en
+la participación laboral. Principales razones que atenúan las
+estimaciones:
+
+\begin{itemize}
+\tightlist
+\item
+  Primero, no capturan efectos de posibles normas sociales asociadas a
+  Edades Mínimas.
+\item
+  Segundo, los cálcuos de las medidas de incentivos tienen error de
+  medida por falta de información (estructura familiar, etc.).
+\item
+  Tercero, las estimaciones tienen sesgos de endogeneidad por las
+  correlaciones entre las historias laborales, las preferencias por el
+  trabajo y los incentivos al retiro.
+\end{itemize}
+
+En general, la evidencia se basa en diseños cuasi-experimentales. Estos
+diseños implican encontrar grupos de control que no se vean afectados
+por los cambios introducidos.
+
+Esto permite aislar el impacto de los cambios analizados con precisión.
+
+Otra técnica usada en los trabajos de última generación son las de
+Regression Kinks.
+
+\hypertarget{alemania}{%
+\subsubsection{Alemania}\label{alemania}}
+
+Este trabajo analiza el efecto de una reforma jubilatoria en Alemania
+que introduce una reducción de las prestaciones para los trabajadores
+que se retiran antes de la edad normal.
+
+Estas reducciones pueden ir entre 0.3\% y 18\% según la cohorte a la que
+pertenece el individuo y el momento en que solicita la jubilación.
+
+El objetivo es medir si los trabajadores difieren la solicitud de la
+jubilación y/o la salida del mercado laboral.
+
+No es lo mismo, y si afecta uno diferente de la otra puede tener
+implicancias sobre el impacto fiscal.
+
+Encuentran que la reforma pospone el acceso a los beneficios
+jubilatorios en 14 meses. Las mujeres y los trabajadores con menores
+jubilaciones difieren en mayor medida.
+
+La salida del mercado laboral se difiere en 10 meses. Este efecto es
+mayor en los hombres y en trabajadores con jubilaciones mayores.
+
+También encuentran que los trabajadores reaccionan poco a los cambios en
+la SSW, y fuertemente a los ACCRUALS.
+
+\hypertarget{austria}{%
+\subsubsection{Austria}\label{austria}}
+
+Este trabajo analiza una serie de cambios paraméticos en el sistema
+jubilatorio austríaco en 2000 y 2004. Estos cambios implicaron un
+aumento de la edad mínima de retiro (EMR). La introducción gradual de
+este cambio permite identificar los efectos con precisión.
+
+Se estima que el aumento en la ERA implicón un aumento de 0.4 años en la
+salida del mercado laboral y 0.5 años en la edad de solicitud de la
+jubilación.
+
+La magnitud similar de este cambio implica que no se registraron
+aumentos importantes en el uso de otros programas que pueden servir como
+salidas alternativas del mercado de trabajo. El principal mecanismo de
+ajuste es la mayor permanencia de los trabajadores en sus puestos de
+trabajo.
+
+\hypertarget{eua}{%
+\subsubsection{EUA}\label{eua}}
+
+\hypertarget{poluxedtica}{%
+\subsubsection{Política}\label{poluxedtica}}
+
+En 1983 se aprobó en EUA un aumento a la edad Normal de Retiro (NRA).
+Desde el año 2000, la NRA subiría 2 meses por año. Los cambios en la
+edad normal de retiro actuán como un ajuste actuarial. Cada aumento de
+dos meses implica una pérdida de 1\% en las prestaciones. Estiman que el
+50\% del aumento en la edad normal de retiro se traduce en aumentos de
+la edad efectiva de retiro.
+
+\hypertarget{reino-unido}{%
+\subsection{Reino Unido}\label{reino-unido}}
+
+This paper uses evidence on labor market behavior in the UK between 2010
+and 2014 to examine what impact increasing the ERA from 60 to 62 has had
+on the economic activity of the affected cohorts of women.
+
+\hypertarget{literatura}{%
+\subsubsection{Literatura}\label{literatura}}
+
+Blundell and Emmerson (2007) estimate that a three-year increase in the
+ERA for both men and women (and assuming that defined benefit
+occupational pension schemes respond with a three-year increase in their
+normal pension ages as well) would increase retirement ages by between
+0.4 and 1.8 years, depending on the specification used.
+
+However, while the effects estimated in these ex ante simulations were
+quite large, if anything the results of ex post evaluations suggests
+even larger effects.
+
+Although almost all of these have focused on changes to normal, rather
+than early, retirement ages. The two major exceptions are Staubli and
+Zweimüller (2013) and Atalay and Barrett (2015), who examine the effect
+of changes in ERAs. They find that a one year increase in the ERA led to
+an increase in employment rates of 9.75 percentage points for affected
+men and by 11 percentage points for affected women, with increases in
+unemployment rates of a similar size.
+
+Manoli and Weber (2016) study the same Austrian reforms and find large
+delays in job exits and pension claiming caused by the increase in the
+ERA. However, the Austrian state pension system is different from the UK
+(and a number of other coun- tries' systems) in several important ways.
+First, in the Austrian system, individuals' pension benefits are
+completely withdrawn if their earnings exceed around \$500 a month.
+Second, although the Austrian system provides some increase in pension
+income for delayed drawing, this is done at a less than actuarially fair
+rate.
+
+Third, the Austrian state pension provides a very high level of earnings
+replacement (according to Staubli and Zweimüller (2013), the average net
+replacement rate of pre- retirement earnings is 75\%); public pensions,
+therefore, provide the main source of income for most pensioners in
+Austria.
+
+Atalay and Barrett (2015) examine the effect of an increase in the
+earliest age at which women can access the Australian Age Pension. They
+find, using cross-sectional survey data, that a one year increase in the
+eligibility age induced a 12--19 percentage point increase in fe- male
+labor supply.
+
+A number of papers have conducted ex ante simulation of such reforms
+using out-of-sample predictions, which suggested quite large equilibrium
+effects in many countries. Ex post evaluations of changes to normal and
+early retirement ages have tended to find, if any- thing, larger effects
+than were suggested by the ex ante simulations.
+
+\hypertarget{la-poluxedtica}{%
+\subsubsection{La política}\label{la-poluxedtica}}
+
+En 1995, UK aprobó un aumento de la EDA para las mujeres. La ERA subiría
+gradualmente de 60 a 65 años entre 2010 y 2020.
+
+\hypertarget{los-resultados}{%
+\subsubsection{Los resultados}\label{los-resultados}}
+
+Identifican el impacto de la ERA comparando cohortes que enfrentan
+diferentes ERAs.
+
+Las tasas de empleo de las mujeres de 60 y 61 años aumentó 6.3 puntos
+porcentuales cuando la ERA subió de 60 a 62 años. Este efecto es implica
+un aumento de dos meses en la edad de retiro promedio, e implica que 3/4
+de los retiros en exceso a los 60 se explican debido a la ERA.
+
+Estos resultados también sugieren un fuerte efecto señalización de la
+ERA. En UK hay incentivos financieros reducidos a retirarse en la ERA.
+We find the policy has also led to a 1.2 percentage point increase in
+the fraction of women who are unemployed and actively seeking work at
+ages 60 and 61. We also find a 4.0 percentage point increase in the
+proportion of women reporting themselves to be economically inactive due
+to sickness or disability.
+
+\hypertarget{noruega}{%
+\subsection{Noruega}\label{noruega}}
+
+\hypertarget{francia}{%
+\subsection{Francia}\label{francia}}
+
+Además de sus efectos en el empleo, el aumento de la edad de retiro
+puede tener impactos en otros programas de seguridad social como el
+seguro de desempleo, las pensiones por invalidez y el seguro de
+enfermedad.
+
+Estos efectos sustitución pueden ser de dos tipos. Por un lado, los
+individuos que ya estan en estos programas prolongan su uso de los
+mismos. Además, puede haber individuos que se encuentran trabajando
+pueden usar estos programas como un puente para retirarse antes de la
+nueva SEA.
+
+Staubli and Zweimüller (2013) y Vestad (2013) son los únicos que toman
+en cuenta este efecto. Las estimaciones difieren considerablemente, los
+efectos de sustitución son iguales a los del empleo en Staubli and
+Zweimüller (2013) y solo 1/3 en Vestad (2013).
+
+\hypertarget{la-poluxedtica-1}{%
+\subsubsection{La política}\label{la-poluxedtica-1}}
+
+En 2010 la SEA subió de 60 a 62 años. En este paper solo se evalúa la
+suba de 60 a 61.
+
+The implementation of this reform is cohort-based: the parameters
+gradually increase with the year of birth of the individual. Cohort 1951
+is the first impacted by the reform, as the SEA increases to 60 years
+and 4 months for individuals born in the second semester of the year.
+The SEA then gradually increases and reaches 62 for cohort 1955, as
+presented in Figure 1.
+
+In this paper, we investigate these two potential effects by studying
+the immediate impact of the 2010 reform of the French pension system on
+the labor force participation of older workers. This reform increased
+the SEA from 60 to 62, but we carry out a short-term evaluation focusing
+on the 60--61 increase.
+
+We expect the effect of the reform to be particularly strong for two
+reasons. First, as the French pension system offers high replacement
+rate at the SEA for individuals with a full career duration, the
+pre-reform share of individuals retiring exactly at the SEA is high
+compared with other countries, suggesting large employment effects of
+its increase.
+
+En Francia hay una alta proporción de los trabajadores que se retiran en
+la SEA. La tasa de remplazo en la SEA es alta. Estos dos factores hacen
+que el efecto esperado de la reforma sea alto.
+
+Encuentran un alto efecto sobre el empleo 21 puntos porcentuales. 40\%
+de la caída en la tasa de retiro. El resto termina en otros programas,
+principalmente desempleo.
+
+Se estiman los impactos de la reforma condicional al estatus anterior.
+Los efectos sobre el empleo se concentran en trabajadores que se
+encuentran empleados, y que los efectos sustitución son dominados por
+los trabajadores fuera del mercado laboral.
+
+Los efectos son mayores para individos con incentivos a retirarse
+temprano y menores para individuos con mala salud.
+
+Ver salidas y gráficos pueden ser interesantes.
+
+\hypertarget{lecciones-de-poluxedtica}{%
+\section{Lecciones de política}\label{lecciones-de-poluxedtica}}
+
+\begin{itemize}
+\tightlist
+\item
+  La edad mínima de jubilación es un instrumento altamente eficaz para
+  prolongar la vida laboral de los mayores. Efecto señalización es parte
+  del impacto.
+\item
+  Los incentivos actuariales también funcionan.
+\item
+  Jubilaciones mínimas pueden ser un incentivo a salir temprano del
+  mercado a pesar de los ajustes actuariales.
+\item
+  Ojo con los otros programas.
+\item
+  Salud y educación, restricciones en las oportunidades de empleo.
+\item
+  Hacia donde va la agenda de investigación.
+\end{itemize}
+
+\hypertarget{glosario}{%
+\section{Glosario}\label{glosario}}
+
+\begin{description}
+\item[Edad Efectiva de Retiro]
+Es la edad a la que un individuo empieza a recibir prestaciones del
+sistema de seguridad social.
+\item[Edad Mínima de Retiro]
+Es la menor edad a la que un trabajador puede aplicar a un programa de
+seguridad social. Es usual que en estos casos las prestaciones se vean
+reducidas frente a las recibidas en la edad normal de retiro.
+\item[Retiro Temprano]
+Es la práctica de acogerse a los beneficios de la seguirdad social antes
+de la edad normal de retiro.
+\item[Prueba de Ingresos]
+Es un límite a los ingresos que puede tener alguien que recibe
+prestaciones del sistema de segurida social.
+\item[Impuestos Implícitos]
+Es el impuesto implícito que enfrenta un trabajador cuando, pudiendo
+recibir una prestación del sistema de seguirdad social, decide seguir
+trabajando y sus beneficios futuros no son compensados.
+\end{description}
+
+\hypertarget{referencias}{%
+\section*{Referencias}\label{referencias}}
+\addcontentsline{toc}{section}{Referencias}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-cribb16}{}%
+Cribb, J., C. Emmerson, and G. Tetlow. 2016. ``Signals Matter? Large
+Retirement Responses to Limited Financial Incentives.'' \emph{Labour
+Economics} 42: 203--12.
+
+\leavevmode\hypertarget{ref-staubli13}{}%
+Staubli, Stefan, and Josef Zweimüller. 2013. ``Does Raising the Early
+Retirement Age Increase Employment of Older Workers?'' \emph{J. Public
+Econ.} 108: 17--32.
+
+\leavevmode\hypertarget{ref-vestad13}{}%
+Vestad, Ola. 2013. ``Labour Supply Effects of Early Retirement
+Provision.'' \emph{Labour Econ.}, no. 25: 98--109.
+
+\end{document}
