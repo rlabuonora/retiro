@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  2 JAN 2021 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  3 JAN 2021 19:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,25 +667,26 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count310
 \l__pdf_internal_box=\box73
 )
-No file evidencia_reciente.aux.
+(./evidencia_reciente.aux)
 \openout1 = `evidencia_reciente.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -752,7 +753,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 8.
+Package hyperref Info: Link coloring OFF on input line 7.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -766,64 +767,65 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
+ (./evidencia_reciente.out) (./evidencia_reciente.out)
 \@outlinefile=\write5
 \openout5 = `evidencia_reciente.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 8.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 8.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 8.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 8.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 8.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 7.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 8.
+ut line 7.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -848,25 +850,23 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dic
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-No file evidencia_reciente.nav.
-[1
+) (./evidencia_reciente.nav) [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 23.
+ut line 22.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -876,28 +876,28 @@ thkerncmss.
 ] [3
 
 ]
-<imgs/mastrobouni-fig1.png, id=92, 458.71375pt x 396.48125pt>
+<imgs/mastrobouni-fig1.png, id=94, 458.71375pt x 396.48125pt>
 File: imgs/mastrobouni-fig1.png Graphic file (type png)
 <use imgs/mastrobouni-fig1.png>
-Package pdftex.def Info: imgs/mastrobouni-fig1.png  used on input line 39.
+Package pdftex.def Info: imgs/mastrobouni-fig1.png  used on input line 38.
 (pdftex.def)             Requested size: 227.62204pt x 196.73978pt.
  [4
 
  <./imgs/mastrobouni-fig1.png>] [5
 
 ]
-<imgs/mastrobouni-tab5.png, id=147, 515.9275pt x 561.09625pt>
+<imgs/mastrobouni-tab5.png, id=149, 515.9275pt x 561.09625pt>
 File: imgs/mastrobouni-tab5.png Graphic file (type png)
 <use imgs/mastrobouni-tab5.png>
-Package pdftex.def Info: imgs/mastrobouni-tab5.png  used on input line 58.
+Package pdftex.def Info: imgs/mastrobouni-tab5.png  used on input line 57.
 (pdftex.def)             Requested size: 227.62204pt x 247.55092pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58   }
+l.57   }
         
-Overfull \vbox (39.82225pt too high) detected at line 58
+Overfull \vbox (39.82225pt too high) detected at line 57
  []
 
 [6
@@ -906,201 +906,227 @@ Overfull \vbox (39.82225pt too high) detected at line 58
 
 ] [8
 
+] [9
+
 ]
-<imgs/rabate-fig2.png, id=225, 647.41875pt x 626.34pt>
+<imgs/rabate-fig2.png, id=255, 647.41875pt x 626.34pt>
 File: imgs/rabate-fig2.png Graphic file (type png)
 <use imgs/rabate-fig2.png>
-Package pdftex.def Info: imgs/rabate-fig2.png  used on input line 85.
+Package pdftex.def Info: imgs/rabate-fig2.png  used on input line 93.
 (pdftex.def)             Requested size: 227.62204pt x 220.20667pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85   }
+l.93   }
         
-Overfull \vbox (12.478pt too high) detected at line 85
+Overfull \vbox (12.478pt too high) detected at line 93
  []
 
-[9
+[10
 
- <./imgs/rabate-fig2.png>]
-<imgs/rabate-tab4.png, id=253, 923.45pt x 366.36874pt>
-File: imgs/rabate-tab4.png Graphic file (type png)
-<use imgs/rabate-tab4.png>
-Package pdftex.def Info: imgs/rabate-tab4.png  used on input line 95.
-(pdftex.def)             Requested size: 341.43306pt x 135.45927pt.
-
-Overfull \hbox (34.14319pt too wide) in paragraph at lines 95--95
- [] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95   }
-         [10
-
- <./imgs/rabate-tab4.png>]
-<imgs/rabate-tab5.png, id=280, 926.46124pt x 279.0425pt>
-File: imgs/rabate-tab5.png Graphic file (type png)
-<use imgs/rabate-tab5.png>
-Package pdftex.def Info: imgs/rabate-tab5.png  used on input line 105.
-(pdftex.def)             Requested size: 341.43306pt x 102.83534pt.
-
-Overfull \hbox (34.14319pt too wide) in paragraph at lines 105--105
- [] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105   }
-          [11
-
- <./imgs/rabate-tab5.png>] [12
-
-] [13
+ <./imgs/rabate-fig2.png>] [11
 
 ]
-<imgs/staubli-fig1.png, id=359, 679.53876pt x 465.74pt>
+<imgs/rabate-tab4.png, id=307, 923.45pt x 366.36874pt>
+File: imgs/rabate-tab4.png Graphic file (type png)
+<use imgs/rabate-tab4.png>
+Package pdftex.def Info: imgs/rabate-tab4.png  used on input line 113.
+(pdftex.def)             Requested size: 341.43306pt x 135.45927pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.113   }
+         
+Overfull \hbox (34.14319pt too wide) in paragraph at lines 113--113
+ [] 
+ []
+
+[12
+
+ <./imgs/rabate-tab4.png>]
+<imgs/rabate-tab5.png, id=334, 926.46124pt x 279.0425pt>
+File: imgs/rabate-tab5.png Graphic file (type png)
+<use imgs/rabate-tab5.png>
+Package pdftex.def Info: imgs/rabate-tab5.png  used on input line 122.
+(pdftex.def)             Requested size: 341.43306pt x 102.83534pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122   }
+         
+Overfull \hbox (34.14319pt too wide) in paragraph at lines 122--122
+ [] 
+ []
+
+[13
+
+ <./imgs/rabate-tab5.png>] [14
+
+]
+<imgs/rabate-tab7.png, id=388, 914.41624pt x 612.2875pt>
+File: imgs/rabate-tab7.png Graphic file (type png)
+<use imgs/rabate-tab7.png>
+Package pdftex.def Info: imgs/rabate-tab7.png  used on input line 142.
+(pdftex.def)             Requested size: 341.43306pt x 228.61691pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.142   }
+         
+Overfull \hbox (34.14319pt too wide) in paragraph at lines 142--142
+ [] 
+ []
+
+
+Overfull \vbox (18.54381pt too high) detected at line 142
+ []
+
+[15
+
+ <./imgs/rabate-tab7.png>] [16
+
+]
+<imgs/staubli-fig1.png, id=440, 679.53876pt x 465.74pt>
 File: imgs/staubli-fig1.png Graphic file (type png)
 <use imgs/staubli-fig1.png>
-Package pdftex.def Info: imgs/staubli-fig1.png  used on input line 135.
+Package pdftex.def Info: imgs/staubli-fig1.png  used on input line 163.
 (pdftex.def)             Requested size: 284.52756pt x 195.0054pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.135   }
-          [14
+l.163   }
+          [17
 
  <./imgs/staubli-fig1.png>]
-<imgs/staubli-fig4.png, id=386, 779.91376pt x 444.66125pt>
+<imgs/staubli-fig4.png, id=468, 779.91376pt x 444.66125pt>
 File: imgs/staubli-fig4.png Graphic file (type png)
 <use imgs/staubli-fig4.png>
-Package pdftex.def Info: imgs/staubli-fig4.png  used on input line 145.
+Package pdftex.def Info: imgs/staubli-fig4.png  used on input line 173.
 (pdftex.def)             Requested size: 284.52756pt x 162.22197pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145   }
-          [15
+l.173   }
+          [18
 
  <./imgs/staubli-fig4.png>]
-<imgs/staubli-tab2.png, id=413, 731.73375pt x 596.2275pt>
+<imgs/staubli-tab2.png, id=495, 731.73375pt x 596.2275pt>
 File: imgs/staubli-tab2.png Graphic file (type png)
 <use imgs/staubli-tab2.png>
-Package pdftex.def Info: imgs/staubli-tab2.png  used on input line 155.
+Package pdftex.def Info: imgs/staubli-tab2.png  used on input line 183.
 (pdftex.def)             Requested size: 284.52756pt x 231.83636pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.155   }
+l.183   }
          
-Overfull \vbox (24.1077pt too high) detected at line 155
+Overfull \vbox (24.1077pt too high) detected at line 183
  []
 
-[16
+[19
 
  <./imgs/staubli-tab2.png>]
-<imgs/staubli-tab3.png, id=440, 724.7075pt x 612.2875pt>
+<imgs/staubli-tab3.png, id=523, 724.7075pt x 612.2875pt>
 File: imgs/staubli-tab3.png Graphic file (type png)
 <use imgs/staubli-tab3.png>
-Package pdftex.def Info: imgs/staubli-tab3.png  used on input line 165.
+Package pdftex.def Info: imgs/staubli-tab3.png  used on input line 193.
 (pdftex.def)             Requested size: 284.52756pt x 240.38878pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.165   }
+l.193   }
          
-Overfull \vbox (32.66011pt too high) detected at line 165
+Overfull \vbox (32.66011pt too high) detected at line 193
  []
 
-[17
+[20
 
- <./imgs/staubli-tab3.png>] [18
+ <./imgs/staubli-tab3.png>] [21
 
 ]
-<imgs/hanel10-fig2.png, id=493, 444.66125pt x 616.3025pt>
+<imgs/hanel10-fig2.png, id=576, 444.66125pt x 616.3025pt>
 File: imgs/hanel10-fig2.png Graphic file (type png)
 <use imgs/hanel10-fig2.png>
-Package pdftex.def Info: imgs/hanel10-fig2.png  used on input line 184.
+Package pdftex.def Info: imgs/hanel10-fig2.png  used on input line 212.
 (pdftex.def)             Requested size: 284.52756pt x 394.35703pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184   }
+l.212   }
          
-Overfull \vbox (186.62836pt too high) detected at line 184
+Overfull \vbox (186.62836pt too high) detected at line 212
  []
 
-[19
+[22
 
  <./imgs/hanel10-fig2.png>]
-<imgs/hanel10-fig3.png, id=521, 899.36pt x 576.1525pt>
+<imgs/hanel10-fig3.png, id=603, 899.36pt x 576.1525pt>
 File: imgs/hanel10-fig3.png Graphic file (type png)
 <use imgs/hanel10-fig3.png>
-Package pdftex.def Info: imgs/hanel10-fig3.png  used on input line 194.
+Package pdftex.def Info: imgs/hanel10-fig3.png  used on input line 222.
 (pdftex.def)             Requested size: 284.52756pt x 182.27142pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194   }
-          [20
+l.222   }
+          [23
 
  <./imgs/hanel10-fig3.png>]
-<imgs/hanel10-tab3.png, id=548, 536.0025pt x 449.68pt>
+<imgs/hanel10-tab3.png, id=630, 536.0025pt x 449.68pt>
 File: imgs/hanel10-tab3.png Graphic file (type png)
 <use imgs/hanel10-tab3.png>
-Package pdftex.def Info: imgs/hanel10-tab3.png  used on input line 204.
+Package pdftex.def Info: imgs/hanel10-tab3.png  used on input line 232.
 (pdftex.def)             Requested size: 284.52756pt x 238.69978pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204   }
+l.232   }
          
-Overfull \vbox (30.97112pt too high) detected at line 204
+Overfull \vbox (30.97112pt too high) detected at line 232
  []
 
-[21
+[24
 
- <./imgs/hanel10-tab3.png>] [22
+ <./imgs/hanel10-tab3.png>] [25
 
-] [23
+] [26
 
-] [24
+] [27
 
 ]
-<imgs/vestad-fig2.png, id=651, 788.9475pt x 521.95pt>
+<imgs/vestad-fig2.png, id=734, 788.9475pt x 521.95pt>
 File: imgs/vestad-fig2.png Graphic file (type png)
 <use imgs/vestad-fig2.png>
-Package pdftex.def Info: imgs/vestad-fig2.png  used on input line 243.
+Package pdftex.def Info: imgs/vestad-fig2.png  used on input line 271.
 (pdftex.def)             Requested size: 227.62204pt x 150.58908pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243     }
-            [25
+l.271     }
+            [28
 
- <./imgs/vestad-fig2.png>] [26
+ <./imgs/vestad-fig2.png>] [29
 
 ]
-<imgs/vestad-tbl2.png, id=710, 889.3225pt x 435.6275pt>
+<imgs/vestad-tbl2.png, id=790, 889.3225pt x 435.6275pt>
 File: imgs/vestad-tbl2.png Graphic file (type png)
 <use imgs/vestad-tbl2.png>
-Package pdftex.def Info: imgs/vestad-tbl2.png  used on input line 269.
+Package pdftex.def Info: imgs/vestad-tbl2.png  used on input line 297.
 (pdftex.def)             Requested size: 398.33858pt x 195.1199pt.
 
-Overfull \hbox (91.0487pt too wide) in paragraph at lines 269--269
+Overfull \hbox (91.0487pt too wide) in paragraph at lines 297--297
  [] 
  []
 
@@ -1108,37 +1134,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:fig2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.269     }
+l.297     }
            
-Overfull \vbox (0.99124pt too high) detected at line 269
+Overfull \vbox (0.99124pt too high) detected at line 297
  []
 
-[27
+[30
 
- <./imgs/vestad-tbl2.png>] [28
+ <./imgs/vestad-tbl2.png>] [31
 
-] [29
+] [32
 
-] [30
-
-] [31
-
-]
-
-LaTeX Warning: Citation `coile' on page 32 undefined on input line 327.
-
-[32
-
-]
-
-LaTeX Warning: Citation `krueger' on page 33 undefined on input line 340.
-
-
-LaTeX Warning: Citation `mastrobouni' on page 33 undefined on input line 340.
-
-[33
+] [33
 
 ] [34
+
+]
+
+LaTeX Warning: Citation `coile' on page 35 undefined on input line 355.
+
+[35
+
+]
+
+LaTeX Warning: Citation `krueger' on page 36 undefined on input line 368.
+
+
+LaTeX Warning: Citation `mastrobouni' on page 36 undefined on input line 368.
+
+[36
+
+] [37
 
 ]
 \tf@nav=\write6
@@ -1150,20 +1176,14 @@ LaTeX Warning: Citation `mastrobouni' on page 33 undefined on input line 340.
 \tf@snm=\write8
 \openout8 = `evidencia_reciente.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
  (./evidencia_reciente.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
+Package rerunfilecheck Info: File `evidencia_reciente.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-
-Package rerunfilecheck Warning: File `evidencia_reciente.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `evidencia_reciente.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Warning: There were undefined references.
 
@@ -1172,10 +1192,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 17965 strings out of 480608
- 344746 string characters out of 5903631
- 588763 words of memory out of 5000000
- 33343 multiletter control sequences out of 15000+600000
+ 18067 strings out of 480608
+ 345827 string characters out of 5903631
+ 588885 words of memory out of 5000000
+ 33430 multiletter control sequences out of 15000+600000
  540043 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,67p,812b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1189,10 +1209,10 @@ usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></u
 sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on evidencia_reciente.pdf (34 pages, 1024937 bytes).
+Output written on evidencia_reciente.pdf (37 pages, 1131915 bytes).
 PDF statistics:
- 964 PDF objects out of 1000 (max. 8388607)
- 876 compressed objects within 9 object streams
- 70 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1047 PDF objects out of 1200 (max. 8388607)
+ 953 compressed objects within 10 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
