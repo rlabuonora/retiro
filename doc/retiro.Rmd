@@ -17,135 +17,99 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Importancia de alargar vida laboral. OCDE 2011.
 
-## Teoría
+# Marco Conceptual
 
-En este contexto, dos instrumentos de política clave que han sido utilizados por los gobiernos de muchos países han sido la edad mínima de retiro (EMR), la edad normal de retiro (ENR) y los ajustes actuariales que penalizan a los trabajadores que se retiran antes de la ENR.
+## Modelo de oferta de trabajo
 
-Uno de los hechos estilizados es que una gran proporción de los trabajadores se retira en la EMR. Citar a @hurd. Para Uruguay, ver @forteza. En este contexto, aumentar la edad mínima a la que los trabajadores son elegibles para cobrar jubilaciones surge como una medida obvia para mejorar la sostenibilidad de los sistemas.
+## Otros Canales
 
-Los ajustes actuariales a las tasas de remplazo también se usan como incentivos para que los trabajadores difieran su retiro del mercado laboral y/o accedan a jubilaciones.
+## Parámetros de la SS
 
-Desde fines del siglo XX muchos países han implentado cambios en estos parámetros para mejorar la sostenibilidad de los sistemas jubilatorios. En este trabajo presentamos la evidencia empírica disponible sobre los efectos de estas reformas.
+## Incentivos de la SS
 
+## Primeros Trabajos empíricos
 
+## Políticas de las últimas décadas
 
-@cribb16 identifican 4 mecanismos mediante los que la ERA afecta la actividad económica de los trabajadores:
+## Evaluación de estas políticas
 
-- Primero, cambia las tasas de impuestos relativas al trabajo.
-- Segundo, reduce el ingreso y la _lifetime wealth_ de los individuos porque reduce los ingresos que van a recibir de la seguridad social.
-- Individuos con restricciones de liquidez pueden verse obligados a seguir trabajando para sostener su consumo.
-- La edad mínima de retiro puede ser una señal para los trabajadores, de que la edad marcada es la edad _correcta_ para jubilarse.
-
-
-@hanel10 cita el modelo de Stock y Wise:
-
-
-Consider that an individual takes the decision regarding the optimal date of retirement entry according to the Option Value Model of Stock and Wise (1990), i.e. she compares all possible future streams of utility from income and leisure and delays retirement entry if she can thereby receive a higher stream of utility. 
+<!-- En este contexto, dos instrumentos de política clave que han sido utilizados por los gobiernos de muchos países han sido la edad mínima de retiro (EMR), la edad normal de retiro (ENR) y los ajustes actuariales que penalizan a los trabajadores que se retiran antes de la ENR. -->
 
 
 
-In this framework, retiring at any early date s instead of any later dater t has four effects: (i) it lowers utility due to a loss of wage earnings during the period between s and t, (ii) it increases utility from leisure during s and t, (iii) it lengthens the period of benefit receipt, thereby raising utility according to the amount of benefits that are paid between s and t, and (iv) it changes the expected present value of future benefits during the remaining lifetime according to the pension formula. Hence, retiring at date s instead of t will be preferred only if the loss in wage income is at least outweighed by (a) the utility from leisure between s and t, (b) the retirement income received between s and t, plus (b) the difference in the present values of future income if the individual retires at date s instead of date t.
+<!-- Los ajustes actuariales a las tasas de remplazo también se usan como incentivos para que los trabajadores difieran su retiro del mercado laboral y/o accedan a jubilaciones. -->
+
+
+
+
+
+<!-- @cribb16 identifican 4 mecanismos mediante los que la ERA afecta la actividad económica de los trabajadores: -->
+
+<!-- - Primero, cambia las tasas de impuestos relativas al trabajo. -->
+<!-- - Segundo, reduce el ingreso y la _lifetime wealth_ de los individuos porque reduce los ingresos que van a recibir de la seguridad social. -->
+<!-- - Individuos con restricciones de liquidez pueden verse obligados a seguir trabajando para sostener su consumo. -->
+<!-- - La edad mínima de retiro puede ser una señal para los trabajadores, de que la edad marcada es la edad _correcta_ para jubilarse. -->
+
+
+<!-- @hanel10 cita el modelo de Stock y Wise: -->
+
+
+<!-- Consider that an individual takes the decision regarding the optimal date of retirement entry according to the Option Value Model of Stock and Wise (1990), i.e. she compares all possible future streams of utility from income and leisure and delays retirement entry if she can thereby receive a higher stream of utility.  -->
+
+
+
 
 ## La Edad Mínima de Retiro
 
-Entre 1980 y 2018, la EMR subió en Bélgica, Dinamarca, Francia, Alemania, Japón, Holanda, España, Suecia y el Reino Unido (@borsch20). Como veremos más adelante, las variaciones de este parámetro de política pueden usarse para estimar la respuesta en los trabajadores con precisión.
+
 
 ## La Edad Normal de Retiro
 
-La ENR también subió generalizadamente en los países de la OCDE. 
 
 ## Ajustes actuariales
 
-Los ajustes actuariales penalizan a los trabajadores que se retiran antes de la ENR. Dado que al postergar un año el retiro, el trabajador contribuye un año más a la seguridad social y recibe un año menos de prestaciones, es usual que el valor de estas prestaciones sea mayor cuanto más postergue el trabajaro el acceso a las mismas.
-
-Explicar lo del earnings test y el país que no tiene ()
-
-Most countries feature an earnings test at ages before the SEA. This forces individuals to stop working when they want to receive social security benefits, as benefits are taxed, often dollar-for-dollar, against earnings (although a small amount of earnings may be allowed without taxation). The decision to claim benefits and the decision to exit the labor force, which are independent decisions from an individual’s point of view, are thus intrinsically combined in these countries; this helps to explain why the word “retirement” means both decisions in these countries. An earnings test is currently in place before the SEA in Belgium, Canada, Denmark, Germany, Japan, Spain, and the UK; only France eliminated its earnings test during the period we examine.
-
-En este trabajo presentamos la literatura empírica relacionada al impacto de estos instrumentos sobre la participación laboral y el uso de otros programas de la seguridad social (seguro de desempleo, invalidez, enfermedad) de la población afectada.
-
-Esta literatura tiene implicancias a la hora de evaluar como implementarlas en Uruguay.
 
 
-<!-- Citado en Rabaté -->
-Las evaluaciones ex-post de las reformas implementadas en Austria, Australia, Alemania y Francia implican que un aumento de 1 o 2 años en la edad mínima de retiro tiene un impacto de entre 6.5 y 20 puntos porcentuales en la probabilidad de que las personas afectadas se encuentren trabajando. Ver!
 
-Por otro lado, Mastrobouni encuentra que 
 
-# Algunos conceptos
-
-Caída de la participación masculina en las últimas décadas del siglo XX. Citar alguno gráfico. Generosidad de los sistemas de seguridad social y las posibilidades de retiro temprano esten atrás de eso.
-
-Literatura original de incentivos al retiro. Diamond y Gruber 1997, breve resúmen de la literatura desde los 80s. 
-
-Muchos cambios en los sistemas previsionales desde los años 80. Si bien es difícil condensar todo en un solo indicador, la orientación general de los cambios es hacia fortalecer los incentivos a trabajar.  @borsch20
 
 
 ## Riqueza de la Seguridad Social (SSW)
 
-Para medir estos incentivos empíricamente, se calcula la riqueza de la seguridad social (SSW). Esta medida compara los ingresos que el trabajador recibe por trabajar con los cambios en el flujo de prestaciones que le paga el sistema de jubilaciones. 
 
-La Riqueza de la Seguridad Social (SSW) para una edad de retiro $h$ es el valor actualizado de los beneficios recibidos entre $h + 1$ y la fecha de muerte 
-$S$.
-
-\[ SSW_{h} = \sum_{s=h+1}^{\S} \rho_{s} B_{s}(h)\]
-
-Para actualizar los beneficios se utiliza el factor de descuento $\rho$, que depende de la probabilidad de sobrevivencia y el factor de descuento intertemporal. 
-
-Si seguir trabajando un año reduce el flujo de pagos que el individuo recibe de la seguridad social, esta diferencia actúa como un impuesto a seguir trabajando. 
-Este desincentivo a seguir en la fuerza de trabajo una vez alcanzadas las condiciones para acceder a una jubilación funciona como un impuesto sobre el trabajo.
 
 ## Devengamiento de la Riqueza e impuesto implício al trabajo
 
-El devengamiento de $SSW$ es la medida más simple de incentivo a trabajar, consiste en calcular el cambio en SSW por permanecer en la fuerza de trabajo un año más:
 
-\[ SSA_{a} = SSW_{a+1} - SSW_{a}\]
-
-El impuesto implícito a seguir trabajando se calcula como 
-
-\[ \tau_{a} = \frac{-SSA_{a}}{W_{a+1}}\]
-
- El principal problema que tiene es que esta medida solo mira un período para adelante, pero la SSA no se incrementa monotónicamente, sino que puede tener saltos. 
-
-Eso implica que para un trabajador la SSA de un año puede ser baja, pero la de 4 años para adelante tener un salto brusco, por lo que el trabajador sigue trabajando teniendo ese salto en cuenta.
 
 ### Peak Value
 
-Para resolver esta limitación, se propone la medida de _Peak Value_, que calcula 
-$PV_{a} = max_{h}(SSW_{h}-SSW_{a})$, o sea, la diferencia máxima entre la riqueza de la seguridad social de retirarse hoy o retirarse en otra fecha.
+
 
 ### Option Value
 
-Cambios en la edad de elegibilidad. Teoría. Indicadores de incentivos.
-Stock y Wise. (Ver versión de Aguila)
 
-(Rabaté)
 
-Due to credit constraints, individuals may not be able to smooth their consumption without delaying their exit from the labor force. It may also generate a negative wealth effect, as the maximum duration of benefits receipt decreases.
 
 Ver Gustman
 
 
-# Resultados
 
-## Microestimation (Alemania, Inglaterra)
-## Méjico, Chile, Brasil
 
-## Evidencia Reciente
 
-Problemas de la evidencia anterior. Ex-ante, basada en simulaciones. La evidencia más reciente consiste en evaluar los efectos observados de medidas efectivamente implementadas.
+<!-- Problemas de la evidencia anterior. Ex-ante, basada en simulaciones. La evidencia más reciente consiste en evaluar los efectos observados de medidas efectivamente implementadas. -->
 
-Los estudio ex-ante estiman menores impactos de la seguridad social en la participación laboral. Principales razones que atenúan las estimaciones:
+<!-- Los estudio ex-ante estiman menores impactos de la seguridad social en la participación laboral. Principales razones que atenúan las estimaciones: -->
 
-- Primero, no capturan efectos de posibles normas sociales asociadas a Edades Mínimas.
-- Segundo, los cálcuos de las medidas de incentivos tienen error de medida por falta de información (estructura familiar, etc.).
-- Tercero, las estimaciones tienen sesgos de endogeneidad por las correlaciones entre las historias laborales, las preferencias por el trabajo y los incentivos al retiro.
+<!-- - Primero, no capturan efectos de posibles normas sociales asociadas a Edades Mínimas. -->
+<!-- - Segundo, los cálcuos de las medidas de incentivos tienen error de medida por falta de información (estructura familiar, etc.). -->
+<!-- - Tercero, las estimaciones tienen sesgos de endogeneidad por las correlaciones entre las historias laborales, las preferencias por el trabajo y los incentivos al retiro. -->
 
-En general, la evidencia se basa en diseños cuasi-experimentales. Estos diseños implican encontrar grupos de control que no se vean afectados por los cambios introducidos.
+<!-- En general, la evidencia se basa en diseños cuasi-experimentales. Estos diseños implican encontrar grupos de control que no se vean afectados por los cambios introducidos. -->
 
-Esto permite aislar el impacto de los cambios analizados con precisión.
+<!-- Esto permite aislar el impacto de los cambios analizados con precisión. -->
 
-Otra técnica usada en los trabajos de última generación son las de Regression Kinks.
+<!-- Otra técnica usada en los trabajos de última generación son las de Regression Kinks. -->
 
 ### Alemania
 
@@ -174,11 +138,7 @@ La magnitud similar de este cambio implica que no se registraron aumentos import
 
 
 
-### EUA
 
-### Política
-
-En 1983 se aprobó en EUA un aumento a la edad Normal de Retiro (NRA). Desde el año 2000, la NRA subiría 2 meses por año. Los cambios en la edad normal de retiro actuán como un ajuste actuarial. Cada aumento de dos meses implica una pérdida de 1% en las prestaciones. Estiman que el 50% del aumento en la edad normal de retiro se traduce en aumentos de la edad efectiva de retiro.
 
 
 ## Reino Unido
@@ -220,46 +180,40 @@ Estos resultados también sugieren un fuerte efecto señalización de la ERA. En
 
 
 
-## Noruega
-
-
-## Francia
-
-
 
 
 
 
   
-Además de sus efectos en el empleo, el aumento de la edad de retiro puede tener impactos en otros programas de seguridad social como el seguro de desempleo, las pensiones por invalidez y el seguro de enfermedad.
-  
-Estos efectos sustitución pueden ser de dos tipos. Por un lado, los individuos que ya estan en estos programas prolongan su uso de los mismos. Además, puede haber individuos que se encuentran trabajando pueden usar estos programas como un puente para retirarse antes de la nueva SEA.
 
-@staubli13 y @vestad13 son los únicos que toman en cuenta este efecto. Las estimaciones difieren considerablemente, los efectos de sustitución son iguales a los del empleo en @staubli13 y solo 1/3 en @vestad13.
+
+<!-- Estos efectos sustitución pueden ser de dos tipos. Por un lado, los individuos que ya estan en estos programas prolongan su uso de los mismos. Además, puede haber individuos que se encuentran trabajando pueden usar estos programas como un puente para retirarse antes de la nueva SEA. -->
+
+<!-- @staubli13 y @vestad13 son los únicos que toman en cuenta este efecto. Las estimaciones difieren considerablemente, los efectos de sustitución son iguales a los del empleo en @staubli13 y solo 1/3 en @vestad13. -->
 
 <!-- ## Este paper -->
 
-### La política
+<!-- ### La política -->
 
-En 2010 la SEA subió de 60 a 62 años. En este paper solo se evalúa la suba de 60 a 61.
+<!-- En 2010 la SEA subió de 60 a 62 años. En este paper solo se evalúa la suba de 60 a 61. -->
 
-The implementation of this reform is cohort-based: the parameters gradually increase with the year of birth of the individual. Cohort 1951 is the first impacted by the reform, as the SEA increases to 60 years and 4 months for individuals born in the second semester of the year. The SEA then gradually increases and reaches 62 for cohort 1955, as presented in Figure 1.
+<!-- The implementation of this reform is cohort-based: the parameters gradually increase with the year of birth of the individual. Cohort 1951 is the first impacted by the reform, as the SEA increases to 60 years and 4 months for individuals born in the second semester of the year. The SEA then gradually increases and reaches 62 for cohort 1955, as presented in Figure 1. -->
 
-In this paper, we investigate these two potential effects by studying the immediate impact of the 2010 reform of the French pension system on the labor force participation of older workers. This reform increased the SEA from 60 to 62, but we carry out a short-term evaluation focusing on the 60–61 increase.
+<!-- In this paper, we investigate these two potential effects by studying the immediate impact of the 2010 reform of the French pension system on the labor force participation of older workers. This reform increased the SEA from 60 to 62, but we carry out a short-term evaluation focusing on the 60–61 increase. -->
 
-We expect the effect of the reform to be particularly strong for two reasons. First, as the French pension system offers high replacement rate at the SEA for individuals with a full career duration, the pre-reform share of individuals retiring exactly at the SEA is high compared with other countries, suggesting large employment effects of its increase. 
+<!-- We expect the effect of the reform to be particularly strong for two reasons. First, as the French pension system offers high replacement rate at the SEA for individuals with a full career duration, the pre-reform share of individuals retiring exactly at the SEA is high compared with other countries, suggesting large employment effects of its increase.  -->
 
-En Francia hay una alta proporción de los trabajadores que se retiran en la SEA. La tasa de remplazo en la SEA es alta. Estos dos factores hacen que el efecto esperado de la reforma sea alto.
+<!-- En Francia hay una alta proporción de los trabajadores que se retiran en la SEA. La tasa de remplazo en la SEA es alta. Estos dos factores hacen que el efecto esperado de la reforma sea alto. -->
 
-Encuentran un alto efecto sobre el empleo 21 puntos porcentuales. 40% de la caída en la tasa de retiro.  El resto termina en otros programas, principalmente desempleo.
+<!-- Encuentran un alto efecto sobre el empleo 21 puntos porcentuales. 40% de la caída en la tasa de retiro.  El resto termina en otros programas, principalmente desempleo. -->
 
-Se estiman los impactos de la reforma condicional al estatus anterior. Los efectos sobre el empleo se concentran en trabajadores que se encuentran empleados, y que los efectos sustitución son dominados por los trabajadores fuera del mercado laboral.
+<!-- Se estiman los impactos de la reforma condicional al estatus anterior. Los efectos sobre el empleo se concentran en trabajadores que se encuentran empleados, y que los efectos sustitución son dominados por los trabajadores fuera del mercado laboral. -->
 
-Los efectos son mayores para individos con incentivos a retirarse temprano y menores para individuos con mala salud.
+<!-- Los efectos son mayores para individos con incentivos a retirarse temprano y menores para individuos con mala salud. -->
 
-Ver salidas y gráficos pueden ser interesantes.
+<!-- Ver salidas y gráficos pueden ser interesantes. -->
 
-# Lecciones de política
+## Lecciones de política
 
 - La edad mínima de jubilación es un instrumento altamente eficaz para prolongar la vida laboral de los mayores. Efecto señalización es parte del impacto.
 - Los incentivos actuariales también funcionan.

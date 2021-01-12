@@ -1,0 +1,128 @@
+---
+title: "Incentivos al Retiro"
+output: 
+  pdf_document: 
+    toc: true
+    toc_depth: 3
+    keep_tex: yes
+bibliography: referencias.bib
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introducción
+
+- Importancia de alargar vida laboral. (OCDE 2011).
+- Seguridad Social es un factor determinante de la oferta laboral de los mayores.
+- Cambios en los sistemas previsionales en varios países para lograrlo.
+- Evidencia de los resultados de estas políticas.
+
+# Marco Conceptual
+
+
+## Impacto de la Seguridad Social en la oferta de trabajo
+
+El marco teórico mas usado para analizar el impacto de los parámetros de los sistemas previsionales en las decisiones de retiro es un modelo en el que el trabajador representativo maximiza la utilidad derivada del consumo de bienes y de ocio.
+
+
+La utilidad del trabajador depende positivamente de ambos. Si decide trabajar más, puede consumir más pero se ve obligado a disfrutar de menos ocio, por lo que existe un _trade off_ entre ambos bienes.
+
+El sistema jubilatorio afecta esta decisión a través de dos canales: el precio relativo de ambos bienes y la riqueza total del individuo. En efecto, si el sistema penaliza más el trabajo, el ocio se vuelve más barato relativo al consumo. Por otro lado, si las prestaciones del sistema se reducen, el precio relativo de ambos bienes se mantiene pero el trabajador va a acceder a un menor nivel de ambos.
+
+Este modelo se puede extender para analizar fenómenos más complejos. En primer lugar, el modelo supone que no hay restricciones de liquidez. Esto implica que el trabajador tiene acceso al mercado financiero, lo que le permite suavizar su consumo. 
+
+Si, por el contrario, el trabajador enfrenta restricciones de liquidez, es posible que se vea obligado a seguir en el mercado de trabajo por más tiempo para mantener sus niveles de consumo.
+
+Por otro lado, el modelo no permite analizar decisiones conjuntas de miembres de un mismo hogar. Algunos trabajos extienden este modelo para analizar los impactos de los sistemas de seguridad social en los hogares. En este marco, si el ocio de uno de los integrantes del hogar es un bien complementario al del otro, los incentivos que enfrenta uno de los integrantes del hogar afectan a otros. Esto permite explicar como, por ejemplo, algunas parejas deciden retirarse juntas.
+
+Finalmente otro fenómeno relevante es el de señalización. En este marco, las edades de retiro dispuestas en las reglas de los sistemas jubilatorios actúan como señales para que los trabajadores se retiren.
+
+Si bien los resultados empíricos sobre esto no son concluyentes (ver Hanel 2010), es posible que los trabajadores perciban las edades mínimas y normal de retiro establecidas en el sistema como la edad a la que _deben_ retirarse.
+
+Finalmente, otro de los aspectos importantes a tener en cuenta en la decisión de retiro es la existencia de oportunidades en el mercado de trabajo para los trabajadores. Ver Hakola.
+
+## Parámetros de la Seguridad Social
+
+
+Uno de los hechos estilizados encontrado en la literatura es que una gran proporción de los trabajadores se retira la EMR o la ENR. Citar a @hurd. Para Uruguay, ver @forteza. En este contexto, aumentar estas edades surge como una medida con potencial de ser altamente eficaz para prolongar la vida laboral de los trabajadores.
+
+### Edad Mínima de Retiro
+
+Es la menor edad a la que un trabajador puede recibir una prestación del sistema jubilatorio. Si bien este suele ser un parámetro muy saliente en todo sistema previsional, es usual que los trabajadores cuenten con otros vías para retirarse del mercado laboral antes de esta edad (seguro de desempleo prolongado, , seguro de enfermedad, pensiones por invalidez, etc.). En muchos países, estas vías terminan funcionando como esquemas de retiro temprano.
+
+Aumentar la EMR implica una reducción en la riqueza total del trabajador, que recibirá las prestaciones por menos tiempo. Si el ocio es un bien normal
+
+
+
+### Edad Normal de Retiro
+
+La Edad Normal de Retiro es la menor edad a la que un trabajador puede acceder a una prestación del sistema jubilatorio sin recibir penalizaciones por retiro temprano.
+
+### Ajustes Actuariales
+
+Los ajustes actuariales son deducciones que se le hacen a las prestaciones que recibe el trabajador por acogerse a los beneficios antes de la edad normal de retiro.
+
+¿Son actuarialmente justos los ajustes?
+
+
+## Midiendo los incentivos de la SS
+
+- $ SSW $, Accrual, $ITAX$.
+- Peak Value, Option Value
+
+
+# Literatura empírica
+
+## Primeros Trabajos
+
+
+- Efectos de la $SSW$ y del Accrual. 
+
+
+## Políticas de las últimas décadas
+
+@NBERbors-1
+
+## Resultados de estas políticas
+
+### Ajustes Actuariales y Edad Normal de Retiro
+
+### Edad Mínima de Retiro
+
+## Lecciones para Uruguay
+
+- La edad mínima de jubilación es un instrumento altamente eficaz para prolongar la vida laboral de los mayores. Efecto señalización es parte del impacto.
+- Los incentivos actuariales también funcionan.
+- Jubilaciones mínimas pueden ser un incentivo a salir temprano del mercado a pesar de los ajustes actuariales.
+- Ojo con los otros programas.
+- Salud y educación, restricciones en las oportunidades de empleo.
+
+# Glosario
+
+Edad Efectiva de Retiro
+
+:   Es la edad a la que un individuo empieza a recibir prestaciones del sistema de seguridad social.
+
+Edad Mínima de Retiro
+
+:   Es la menor edad a la que un trabajador puede aplicar a un programa de seguridad social. Es usual que en estos casos las prestaciones se vean reducidas frente a las recibidas en la edad normal de retiro.
+
+Retiro Temprano
+
+: Es la práctica de acogerse a los beneficios de la seguirdad social antes de la edad normal de retiro.
+
+Prueba de Ingresos
+
+: Es un límite a los ingresos que puede tener alguien que recibe prestaciones del sistema de segurida social.
+
+Impuestos Implícitos
+
+:  Es el impuesto implícito que enfrenta un trabajador cuando, pudiendo recibir una prestación del sistema de seguirdad social, decide seguir trabajando y sus beneficios futuros no son compensados.
+
+
+
+# Referencias
+

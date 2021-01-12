@@ -2,74 +2,284 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{amsmath}
-\title{Evidencia Reciente}
+\usepackage{bibentry}
+
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\title{Incentivos al Retiro}
 
 \begin{document}
 
+\begin{frame}
 \maketitle
+\end{frame}
+
+
+\section{Marco Conceptual}
+
 
 \frame
 {
+  \frametitle{Modelo de oferta de trabajo}
+  
+    Al decidir su oferta de trabajo, los trabajadores enfrentan un \textit{trade-off} entre ocio y consumo.
 
-  \frametitle{Labor supply effects of the recent social security benefit cuts: Empirical estimates using cohort discontinuities}
+    \begin{itemize} 
+      \item Efecto riqueza. Si el ocio es un bien normal, un aumento en la riqueza total del individuo aumentará su demanda y reducirá su oferta de trabajo.
+      \item Efecto sustitución. Si el ocio se vuelve más caro relativo al consumo, los trabajadores eligen menos ocio y aumentan su oferta de trabajo.
+    \end{itemize}
+    }
+    \frame
+    {
+      \frametitle{Otros factores}
+      \begin{itemize}
+      \item Restricciones de liquidez
+      \item Señalización (Cribb, Mastrobouni, Seibold)
+      \item Oportunidades laborales (Hakola)
+      \item Efecto sobre el hogar.
+      \end{itemize}
+      
+    }
+    
+
+\frame
+{
+  \frametitle{Edad Mínima de Retiro (EMR)}
+    \begin{itemize}
+      \item Es la menor edad a la que un trabajador puede recibir una jubilación.
+      \item  Aumentar la EMR \textbf{reduce} la riquez total del trabajador, por lo que \textbf{aumenta} la oferta de trabajo por efecto riqueza.
+      \
+    \end{itemize}
+}
+        \frame
+    {
+      \frametitle{Ajustes Actuariales}
+      \begin{itemize}
+      \item Son las penalizaciones que se le hacen al monto de las jubilaciones cuando el trabajador elige retirarse antes de la Edad Normal de Retiro.
+      \item Aumentar estos ajustes \textbf{aumenta} el precio relativo del ocio, por lo que \textbf{aumenta} la oferta de trabajo por el efecto sustitución.
+    \end{itemize}
+    }
+    \frame
+    {
+      \frametitle{Edad Normal de Retiro (ENR)}
+      \begin{itemize}
+      \item Es la menor edad a la que un trabajador puede recibir una jubilación sin recibir penalizaciones por retiro temprano.
+      \item Funciona igual que aumentar los ajustes actuariales.
+      \item Aumentar esta edad implica \textbf{aumenta} el precio relativo del ocio, por lo que la oferta de trabajo \textbf{aumenta} por el efecto sustitución.
+    \end{itemize}
+    }
+  
+    \frame
+{
+  \frametitle{Medidas de Incentivos de la seguridad social}
+  
+  En la literatura se encuentran varias formas de medir los incentivos que generan los sistemas previsionales.
+    \begin{itemize}
+    \item \textit{SSW}
+    \item Accrual, impuesto implícito sobre el trabajo.
+    \item Peak Value, Option Value.
+    \end{itemize}
+}
+\frame
+{
+  \frametitle{Riqueza de la seguridad social}
+  
+  La Riqueza de la Seguridad Social (SSW) para una edad de retiro $h$ es el valor actualizado de los beneficios recibidos entre $h + 1$ y la fecha de muerte $S$, si el trabajador se retira a la edad $h$:
+
+\[ SSW_{h} = \sum_{s=h+1}^{\S} \rho_{s} B_{s}(h)\]
+
   
   \begin{itemize}
-  \item Aumento de la NRA en EUA
-  \item Se aprueba en 1983
-  \item Empieza a regir a partir de 2000
-  \item Analiza el impacto sobre la edad de retiro efectiva.
+  \item Para actualizar los beneficios se utiliza el factor de descuento $\rho$, que depende de la probabilidad de sobrevivencia y el factor de descuento intertemporal. 
+  \item Hay consenso en que el aumento de $SSW$ aumenta la probabilidad de retiro. (Ver Chile, Méjico, OCDE).
+  \end{itemize} 
+
+}
+\frame
+{
+  \frametitle{Devengamiento (Accrual)}
+  
+  \begin{itemize}
+  \item Si seguir trabajando un año reduce el flujo de pagos que el individuo recibe de la seguridad social, esta diferencia actúa como un impuesto a seguir trabajando. 
+  
+  \item Este desincentivo a seguir en la fuerza de trabajo una vez alcanzadas las condiciones para acceder a una jubilación funciona como un impuesto sobre el trabajo.
+  \item Samwick y otros muestran que el devengamiento es más importante que la riqueza para explicar la edad de retiro.
+  \end{itemize}
+  }
+  \frame
+  {
+  \frametitle{Devengamiento (2)}
+  \begin{itemize}
+  \item El devengamiento de $SSW$ es la medida más simple de incentivo a trabajar, consiste en calcular el cambio en SSW por permanecer en la fuerza de trabajo un año más:
+
+\[ SSA_{a} = SSW_{a+1} - SSW_{a}\]
+\end{itemize}
+}
+\frame
+{
+  \frametitle{Impuesto Implícito (ITAX)}
+  
+  
+    \begin{itemize}
+    \item El impuesto implícito a seguir trabajando se calcula como 
+
+      \[ \tau_{a} = \frac{-SSA_{a}}{W_{a+1}}\]
+
+    \item Tiene el signo opuesto del devengamiento.
+    \item Es la proporción del salario que representa el devengamiento negativo.
+
+    \end{itemize}
+}
+\frame
+{
+  \frametitle{Problemas de las medidas a un período}
+  \begin{itemize}
+      \item El principal problema que tiene es que esta medida solo mira un período para adelante, pero la SSA no se incrementa monotónicamente, sino que puede tener saltos. 
+
+    \item Eso implica que para un trabajador la SSA de un año puede ser baja, pero la de 4 años para adelante tener un salto brusco, por lo que el trabajador sigue trabajando teniendo ese salto en cuenta.
+  \end{itemize}
+}
+\frame
+{
+  \frametitle{Medidas más sofisticadas: Option Value}
+   
+   Propuesta por Stock y Wise 1990.
+}
+
+\frame
+{
+  \frametitle{Medidas más sofisticadas: Peak Value}
+    Es la diferencia máxima entre la riqueza de la seguridad social de retirarse hoy o retirarse en otra fecha:
+    
+        $PV_{a} = max_{h}(SSW_{h}-SSW_{a})$
+
+}
+\frame
+{
+  \frametitle{Primeros Resultados}
+  \begin{itemize}
+  \item Los primeros trabajos que miden los efectos de la Seguridad Social sobre el mercado de trabajo son de los años 80s.
+  \item Hacia fines del siglo pasado, había considerable evidencia de que en los países de la OCDE, los incentivos generados por los sistemas de seguridad social eran un factor determinante en la baja de la participación laboral de los hombre mayores.
   \end{itemize}
 }
 
- 
-  \frame
-  {
-    \frametitle{Política}
-  }
-  \frame
-  {
-    \frametitle{Evidencia Descriptiva}
-      \begin{figure}[htp]
-        \centering
-        \includegraphics[width=8cm]{imgs/mastrobouni-fig1}
-        \caption{Descriptivos}
-        \label{fig:fig2}
-      \end{figure}
-  }
-  \frame
-  {
-    \frametitle{Estrategia}
+
+
+\frame
+{
+  \frametitle{Primeros estudios}
+  \begin{itemize}
+  \item Se basan en estimaciones cross-section.
+  \item Se calculan incentivos de retiro (\textit{SSW, Peak Value, etc.}) y se estiman modelos usando datos cross-section.
+  \item Varios trabajos documentaron que los sistemas previsonales penalizaban fuertemente el trabajo luego de tener causal.
+  \item Este impuesto implícito sobre la actividad laboral de los mayores tiene efectos sobre las tasas de actividad.
+  \item No permitían identificar con precisión el impacto de distintos parámetros de los sistemas.
+  \end{itemize}
+}
+
+\frame
+{
+  \frametitle{Evidencia OCDE}
+  Microestimation, Alemania, algún otro?
+}
+
+\frame
+{
+  \frametitle{Evidencia América Latina}
+  \begin{itemize}
+  \item Chile (Cerdas 2005)
+  \item Méjico (Aguila, Miranda-Muñoz)
+  \item Brasil
+  \end{itemize}
+}
+
+\frame
+{
+  \frametitle{Orientación general de las políticas}
+  
+  OCDE vs. América Latina
+  
+  
+}
+
+
+
+\frame
+{
+  \frametitle{Problemas}
+  
+  ~\cite{mastrobouni09} discute las limitaciones de esta literatura:
+  \begin{itemize}
+  \item Endogeneidad
+  \item Error de medida
+  \item No captura efectos de señalización de las edades de retiro.
+  \end{itemize}
+}
+
+\frame
+{
+  \frametitle{Trabajos Recientes}
+  
+  \begin{itemize}
+  \item La literatura más reciente busca evaluar los efectos de las políticas de los últimas décadas, que buscaron estimular la oferta de trabajo de los mayores.
+  \item Usan registros administrativos y metodologías cuasi-expermientales para medir los impactos de los cambios paramétricos en:
     \begin{itemize}
-      \item Diff-in-diff
-      \item Cohortes 1928-1937 (control)
-      \item Cohortes 1938-1941 (tratamiento)
+     \item Las edades de retiro efectivas
+     \item La oferta laboral
+     \item El uso de otros programas de seguridad social
+     \item La salud (escasa evidencia)
+     \item La oferta laboral de los cónyuges
+     \end{itemize}
+  \end{itemize}
+}
+
+\frame
+{
+  \frametitle{Metodos cuasi-experimentales}
+  
+}
+\frame
+{
+  \frametitle{Edad Mínima de Retiro (EMR)}
+
+    \begin{itemize}
+    \item Rabaté 2018 - Francia
+    \item Staubli 2011 - Austria
+    \item Atalay 2012 - Australia
+    \item Cribb 2016 - UK
+    \item Geyer 2018 - Alemania
+    \item Vestad 2013 - Noruega
+    \end{itemize}
+}
+  \frame
+  {
+    \frametitle{Edad normal de retiro (ENR)/Ajustes actuariales}
+    \begin{itemize}
+    \item Lalive 2015 - Suiza
+    \item Hanel 2012 - Suiza
+    \item Hanel 2009 - Alemania
+    \item Mastrobouni 2009 - EUA
     \end{itemize}
   }
+
   \frame
   {
-    \frametitle{Resultados}
-      \begin{figure}[htp]
-        \centering
-        \includegraphics[width=8cm]{imgs/mastrobouni-tab5}
-        \caption{Salida}
-        \label{fig:fig2}
-      \end{figure}
-  }
-  \frame
-  {
-    \frametitle{Discusión}
-    \begin{itemize}
-      \item El crecimiento de la edad promedio de retiro se acelera para los cohortes que enfrentan la nueva NRA.
-      \item La edad efectiva de retiro aumenta 50\% del aumento de la NRA.
-    \end{itemize}
-  }
-  \frame
-  {
-     \frametitle{Employment and substitution effects of raising the statutory retirement age in France}
+     \frametitle{Rabaté 2018}
      \begin{itemize}
+       \item Employment and substitution effects of raising the statutory retirement age in France.
        \item Francia, \textit{Régime Général}, cubre $\frac{2}{3}$ de la población.
-       \item Suba gradual de la EMR de 60 a 62 en 2010.
-       \item Hay un cambio en la ENR que afecta otras cohortes.
+       \item Suba gradual de la EMR de 60 a 62 a partir 2010.
+       \item Hay un cambio en la ENR que afecta otras cohortes (no se evalúa).
      \end{itemize}
   }
   \frame
@@ -77,8 +287,8 @@
     \frametitle{Identificación}
       \begin{itemize}
         \item Evalúa el impacto de la suba de 60 a 61 sobre oferta laboral y sustitución por otros programas.
-        \item La primera cohorte afectada es la nacida a finales de 1951, su ERA pasó a 60 años y 4 meses.
-       \item La cohorte 1955 tiene una era de 62 años.
+        \item La primera cohorte afectada es la nacida a finales de 1951, su EMR pasó a 60 años y 4 meses.
+       \item La cohorte 1955 tiene una EMR de 62 años.
      \end{itemize}
   }
   \frame
@@ -87,24 +297,24 @@
       \begin{figure}[htp]
         \centering
         \includegraphics[width=8cm]{imgs/rabate-fig2}
-        \caption{Descriptiva}
         \label{fig:fig2}
       \end{figure}
   }
   \frame
   {
     \frametitle{Evidencia Descriptiva}
+    La cohorte tratada ...
         \begin{itemize}
-        \item La cohorte de control tiene mayor probabilidad de retirarse (los trabajadores menores de la EMR pueden retirarse si tienen carreras de trabajo largas).
-        \item Los miembros de la cohorte tratada tienen mayor probabilidad de estar trabajando.
-        \item Los miembros de la cohorte tratada tienen mayor probabilidad de estar desempleados.
-        \item Los miembros de la cohorte tratada tienen mayor probabilidad de estar inactivos, en seguro de enfermedad e invalidez.
+        \item  menor probabilidad de retirarse (los trabajadores menores de la EMR pueden retirarse si tienen carreras de trabajo largas).
+        \item  mayor probabilidad de estar trabajando.
+        \item  mayor probabilidad de estar desempleados.
+        \item  mayor probabilidad de estar inactivos, en seguro de enfermedad e invalidez.
      \end{itemize}
     
   }
   \frame
   {
-    \frametitle{Varias especificaciones}
+    \frametitle{Resultados}
       \begin{figure}[htp]
         \centering
         \includegraphics[width=12cm]{imgs/rabate-tab4}
@@ -113,7 +323,7 @@
   }
   \frame
   {
-    \frametitle{Otros Estados}
+    \frametitle{Resultados(2)}
       \begin{figure}[htp]
         \centering
         \includegraphics[width=12cm]{imgs/rabate-tab5}
@@ -123,10 +333,10 @@
   \frame
   {
     \frametitle{Discusión}
-    Las regresiones permiten controlar por X, Y, Z. Permiten establecer efectos causales de aumentar la EMR.
+      Permiten establecer efectos causales de aumentar la EMR.
       \begin{itemize}
       \item La probabilidad de estar empleado sube aprox. 20\%.
-      \item Efectos sustitución con otros programas altos (13.5 \% seguro de desempleo)
+      \item El principal efecto sustitución es con el seguro de desempleo (13.5 \%)
       \item Efectos menores pero significativos sobre invalidez, enfermedad e inactividad.
       \end{itemize}
   }
@@ -138,17 +348,48 @@
         \includegraphics[width=12cm]{imgs/rabate-tab7}
         \label{fig:fig2}
       \end{figure}
-    
+  }
+  \frame
+  {
+    \frametitle{Heterogeneidad}
   }
   
   \frame
   {
-    \frametitle{Does Raising the Retirement Age Increase Employment of Older Workers?}
+    \frametitle{Staubli y Zweimüller (2011 - IZA)}
     \begin{itemize}
-    \item Staubli y Zweimüller (2011 - IZA)
+    \item Does Raising the Retirement Age Increase Employment of Older Workers?
     \item Austria, aumento de la ERA en 2000 y 2004
-    \item Cohortes afectadas:
-    \item Compara las cohortes por debajo y por encima de la ERA.
+    \item Estima los efectos sobre el empleo y el uso de otros programas de Seguridad Social.
+    \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Contexto}
+    \begin{itemize}
+    \item En 2000, baja participación de mayores en el mercado laboral.
+    \item EMR son 55 y 60 para hombres y mujeres respectivamente.
+    \item El sistema público cubre a casi todos los trabajadores del país.
+    \item Ofrece seguro de desempleo e invalidez.
+    \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Reforma de 2000}
+    \begin{itemize}
+    \item La edad de retiro aumenta 1.5 años en forma gradual (Los hombres (mujeres) nacidos en Setiembre de 1940 (1945) aumentan 2 meses su EMR.
+    \item Luego, cada trimestre sube 2 meses hasta llegar a 18 meses.
+    \item Los hombres (mujeres) con más de 45 (40) años de trabajo no se ven afectados.
+    \item La penalización por retirarse antes de la ENR también aumentó.
+    \end{itemize}
+  }
+    \frame
+  {
+    \frametitle{Reforma de 2004}
+    \begin{itemize}
+    \item La edad de retiro vuelve a aumentar gradualmente a 65 y 60 años.
+ 
+    \item Este cambio afecta a hombres nacidos a partir del primer semestre de  1943 para los hombres y 1948 las mujeres.
     \end{itemize}
   }
   \frame
@@ -157,8 +398,8 @@
       \begin{figure}[htp]
         \centering
         \includegraphics[width=10cm]{imgs/staubli-fig1}
-        \caption{Evidencia}
         \label{fig:fig2}
+        \caption{La proporción de hombres y mujeres trabajando aumenta entre 2000 y 2006 para todas las edades afectadas.}
       \end{figure}
   }
   \frame
@@ -167,19 +408,28 @@
       \begin{figure}[htp]
         \centering
         \includegraphics[width=10cm]{imgs/staubli-fig4}
-        \caption{Salida 2}
+        \caption{Saltos en las proporciones en la edad de cada cohorte}
         \label{fig:fig2}
       \end{figure}
   }
   \frame
   {
-    \frametitle{Salida 1}
+    \frametitle{Resultados}
       \begin{figure}[htp]
         \centering
         \includegraphics[width=10cm]{imgs/staubli-tab2}
         \caption{Salida 2}
         \label{fig:fig2}
       \end{figure}
+  }
+  \frame
+  {
+    \frametitle{Lectura}
+    Estar bajo la EMR...
+    \begin{itemize}
+    \item ... baja la probabilidad de retirarse entre 18.5 \% (H) y 23 \% (M).
+    \item ... sube la probabilidad de estar trabajando 7 \% (H) y 8-10 \% (M).
+    \item ... sube la probabilidad de estar inactivo 11 \% (H) y 13 \% (M).         \end{itemize}
   }
   \frame
   {
@@ -193,43 +443,36 @@
   }
   \frame
   {
-    \frametitle{Financial incentives to postpone retirement and further effects on employment}
+    \frametitle{Efectos sobre otros programas}
     \begin{itemize}
-    \item Hanel, 2010
-    \item Alemania
-    \item Reducción de prestaciones por retiro temprano.
+    \item Aumenta la probabilidad de estar desempleado.
+    \item Aumenta la probabilidad de estar en retiro parcial.
+    \item Aumenta la probabilidad de estar fuera del mercado.
+    \item Aumenta la probabilidad de estar en en invalidez.
     \end{itemize}
   }
   \frame
-  {
-    \frametitle{Evidencia Descriptiva}
+    {
+    \frametitle{Heterogeneidad: Salud y capital humano}
       \begin{figure}[htp]
         \centering
-        \includegraphics[width=10cm]{imgs/hanel10-fig2}
+        \includegraphics[width=10cm]{imgs/staubli-tab6}
         \caption{Salida 2}
         \label{fig:fig2}
       \end{figure}
   }
   \frame
-  {
-    \frametitle{Evidencia Descriptiva1}
+    {
+    \frametitle{Heterogeneidad: Ingresos}
       \begin{figure}[htp]
         \centering
-        \includegraphics[width=10cm]{imgs/hanel10-fig3}
+        \includegraphics[width=10cm]{imgs/staubli-tab7}
         \caption{Salida 2}
         \label{fig:fig2}
       \end{figure}
   }
-  \frame
-  {
-    \frametitle{Salida}
-      \begin{figure}[htp]
-        \centering
-        \includegraphics[width=10cm]{imgs/hanel10-tab3}
-        \caption{Salida 2}
-        \label{fig:fig2}
-      \end{figure}
-  }
+  
+
   \frame
    {
      \frametitle{Labour Supply effects of early retirement provision}
@@ -306,76 +549,265 @@
 
 
 }
-\frame
-    {
-      \frametitle{The Impact of Pension Eligibility Age on Retirement }
-      \begin{itemize}
-      \item Estudian  que el aumento de la edad mínima de retiro para las mujeres en Australia en 1993.
-      \item Encuentran reduce 8\% la probabilidad de retirarse.
-      \item Encuentran que hay sustitución de programas
-      \end{itemize}
-    }
-    \frame
-        {
-          \frametitle{Preguntas}
-
-          \begin{itemize}
-          \item Medir el impacto del cambio en la edad mínima de retiro en la oferta laboral
-          \item Medir la sustitución por otros programas
-          \end{itemize}
-
-          }
-    \frame
-        {
-          \frametitle{Canales}
-
-          El cambio en la edad de retiro afecta la decisión de retiro por dos canales:
-          \begin{itemize}
-          \item Reduce la riqueza del individuo, induciéndolo a consumir menos ocio.
-          \item Aumenta las contribuciones, y por ende los beneficios (en algunos casos).
-          \end{itemize}
-
-          Ambos efectos tienen el mismo signo cuando aumenta la edad de retiro, por lo que puede ser difícil separarlos. En el caso de Australia, el segundo efecto no opera, por lo que es un experimento para estudiar el primer efecto aislado.
-
-        }
-        \frame
-            {
-              \frametitle{Antecedentes}
-              \begin{itemize}
-              \item La mayor parte de los trabajos anteriores usan variación cross-section
-                ~\cite{coile}.
-
-              \item Se encuentran efectos fuertes de \textit{accrual effects}.
-              \item Usan simulaciones y predicciones \textit{out of sample}.
-              \item Problemas para tomar en cuenta comportamientos asociados a normas de comportamiento.
-              \item Problemas de identificación: cómo separar el efecto
-                de los parámetros del sistema y de las tendencias de retiro.
-              \end{itemize}
-
-            }
-            \frame
-                {
-                  \frametitle{Variación exógena}
-
+              \frame
+              {
+                \frametitle{Atalay y Barrett, 2012}
                   \begin{itemize}
-                  \item La solución es encontrar una variación exógena para identificar los efectos
-
-                  \item El pionero es \cite{krueger}, también es importante \cite{mastrobouni}.
-                  \item Trabajos similares a este son Hanel (para Suiza).
-                  \item Otro grupo de trabajos que analizan los impactos de cambios en los parámetros de la Seguridad Social en la sustitución de programas.
-
+                  \item The Impact of Age Pension Eligibility Age on Retirement and Program Dependence: Evidence from an Australian Experiment
+                  \item Australia, aumento gradual de la EMR de las mujeres en 1993.
+                  \item Estima el impacto del cambio en la edad mínima de retiro en la oferta laboral.
+                  \item Analiza la sustitución por otros programas de Seguridad Social.
                   \end{itemize}
-                  }
-                \frame
-                    {
+              }
+              \frame
+              {
+                \frametitle{Contexto}
+                  \begin{itemize}
+                  \item Se evalúan cambios al pilar no contributivo.
+                  \item Este pilar tiene un test de ingresos y de \textit{assets}
+                  \item Cubre al 69\% de la población.
+                  \item EMR de 65 y 60 años para hombres y mujeres respectivamente.
+                  \end{itemize}
+               } 
 
-                      \frametitle{Este trabajo}
+              \frame
+              {
+                \frametitle{Reforma}
+                
+                \begin{itemize}
+                \item Transición hacia igualar las EMR  para 2014.
+                \item A partir de Julio de 1995, la EMR de las mujeres aumenta 6 meses cada 2 años.
+                \item Las mujeres que tienen una EMR de 65 años (nacidas a paritr de 1949) tienen una caída de la \textit{SSW} de 23\% respecto a las que enfrentan una EMR de 60 (nacidas en 1935 y antes. 
+                \end{itemize}
+              }
+              \frame
+              {
+                \frametitle{Estrategia}
+                Compara las tasas de retiro de las cohortes afectadas con las de las cohortes no afectadas y los hombres.
+              }
+              \frame
+              {
+                  \begin{figure}[htp]
+                  \centering
+                  \includegraphics[width=10cm]{imgs/atalay-tab3}
+                  \label{fig:fig2}
+                  \end{figure}
+    
+              }
+              \frame
+              {
+                \frametitle{Resultados}
+                \begin{itemize}
+                \item La participación laboral de las mujeres afectadas aumentó  8 \% .
+                \item La probabilidad de cobrar una pensión por invalidez aumenta 12 \%.
+                \end{itemize}
+              }
+              \frame
+              {
+              
+              \frametitle{Cribb 2016 - UK}
+              }
+              \frame
+              {
+              
+                \frametitle{Contexto}
+              }
+              \frame
+              {
+              
+                \frametitle{Política}
+              }
+              \frame
+              {
+              
+                \frametitle{Evidencia Descriptiva}
+              }
+                            \frame
+              {
+              
+                \frametitle{Resultados}
+              }
+              \frame
+              {
+                \frametitle{Discusión}
+              }
+              
+              \frame
+              {
+                \frametitle{Mastrobouni 2009 - EUA}
+                  \begin{itemize}
+                  \item Labor supply effects of the recent social security benefit cuts: Empirical estimates using cohort discontinuities.
+                  \item Aumento de la NRA en EUA
+                  \item Se aprueba en 1983, y empieza a regir a partir de 2000.
+                  \item Las prestaciones se ajustan actuarialmente, cada dos meses de incremento en la ENR implica una reducción de aproximadamente 1\%.
+                  \item Analiza el impacto sobre la edad de retiro efectiva.
+                  \end{itemize}
+}
 
-                      \begin{itemize}
-                      \item Busca aislar el efecto riqueza.
-                      \item Encuentran que el efecto de subir la edad mínima de retiro aumentó puntos porcentuales la participación de las mujeres en el mercado laboral.
-                      \item Encuentran efectos significativos en el uso de otros programas, especialmente invalidez.
-                      \end{itemize}
-                      }
+ 
+  \frame
+  {
+    \frametitle{Evidencia Descriptiva}
+      \begin{figure}[htp]
+        \centering
+        \includegraphics[width=8cm]{imgs/mastrobouni-fig1}
+        \caption{El aumento en la edad efectiva de retiro se acelera para las cohortes afectadas}
+        \label{fig:fig2}
+      \end{figure}
+  }
+  \frame
+  {
+    \frametitle{Estrategia}
+    \begin{itemize}
+      \item Diff-in-diff
+      \item Cohortes 1928-1937 (control)
+      \item Cohortes 1938-1941 (tratamiento)
+      \item 3 formas de corregir errores de clasificación por la fecha de nacimiento (\textit{naive, sophisticated y restricted})
+    \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Resultados}
+      \begin{figure}[htp]
+        \centering
+        \includegraphics[width=8cm]{imgs/mastrobouni-tab5}
+        \label{fig:fig2}
+      \end{figure}
+  }
+  \frame
+  {
+    \frametitle{Discusión}
+    \begin{itemize}
+      \item El crecimiento de la edad promedio de retiro se acelera para los cohortes que enfrentan la nueva NRA.
+      \item La diferencia estimada en la pendiente es (1.10 y 0.94) por año.
+      \item Como cada año la NRA aumenta 2 meses, la edad efectiva de retiro aumenta 50\% del aumento de la NRA.
+    \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Heterogeneidad}
+    
+    \begin{itemize}
+    
+    \item Los hombres con solo secundaria terminada son el subgrupo que reacciona más a los incentivos.
+    \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Hanel 2010}
+    \begin{itemize}
+    \item Financial incentives to postpone retirement and further effects on employment
+    \item Alemania, sistema de reparto que cubre 33.5 millones de trabajadores privados.
+    \item Desde 1972 existen varias formas de retirarse a partir de los 60 sin penalizaciones (pensión para mujeres, desempleados, inválidos).
+    \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Cambios 1997}
+    \begin{itemize}
+      \item Se implementen deducciones en las prestaciones de 0.3\% por mes antes de la ENR en que se solicita la jubilación.
+      \item Se implementa gradualmente por cohortes (los hombres nacidos en Enero de 1938 tienen una ENR de 60 y 1 mes).
+    \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Evidencia Descriptiva}
+      \begin{figure}[htp]
+        \centering
+        \includegraphics[width=6cm]{imgs/hanel10-fig2}
+        \label{fig:fig2}
+      \end{figure}
+  }
+  \frame
+  {
+    \frametitle{Evidencia Descriptiva}
+      
+      \begin{itemize}
+        \item La proporción de hombres que se jubila a los 65 es estable hasta la última cohorte no afectada (1937).
+        \item En las cohortes afectadas la proporción aumenta.
+        \item Para las mujeres, la primera cohorte afectada es la nacida en 1940.
+        \item La proporción de mujeres retiradas a los 60 se reduce a partir de la introducción de los cambios.
+      \end{itemize}
+  }
+  \frame
+  {
+    \frametitle{Análisis de supervivencia}
+    \begin{itemize}
+    \item Estima el impacto de la reforma en la probabilidad de dejar de trabajar y de pedir una jubilación en función de indicadores de incentivos.
+    \item Para interpretar los resutados, reporta el cambio en el tiempo esperado para que sucedan esos eventos, controlando por las variables demográficas.
+    \end{itemize}
+  }
+  % \frame
+  % {
+  %   \frametitle{Resultados}
+  %     \begin{figure}[htp]
+  %       \centering
+  %       \includegraphics[width=10cm]{imgs/hanel10-tab3}
+  %       \caption{Salida 2}
+  %       \label{fig:fig2}
+  %     \end{figure}
+  % }
+  \frame
+  {
+  \frametitle{Duración}
+     \begin{itemize}
+       \item La reforma aumenta 14 meses el tiempo que transcurre entre que el trabajador es elegible y solicita la jubilación.
+       \item La reforma aumenta 10 meses el tiempo en que el trabajador permanece empleado después de los 55 años en 10.5 meses.
+     \end{itemize}
+  }
+  \frame
+  {
+  \frametitle{Comentarios}
+    \begin{itemize}
+      \item Las mujeres reaccionan más que los hombres en la decisión de jubilación y menos en la decisión de dejar el trabajo.
+      \item Los impactos sobre pedir una pensión son mayores que sobre dejar el empleo.
+      \item Cuanto mayores los ingresos, menor es el impacto de la reforma en el tiempo hasta jubilarse, y mayor en el tiempo hasta dejar el trabajo.
+    \end{itemize}
+
+}
+
+\frame
+{
+  \frametitle{Hanel 2012}
+  \begin{itemize}
+  \item Suiza
+  \end{itemize}
+}
+
+\frame
+{
+  \frametitle{Contexto}
+}
+
+\frame
+{
+  \frametitle{Política}
+}
+\frame
+{
+  \frametitle{Resultados}
+}
+\frame
+{
+  \frametitle{Discusión}
+}
+              
+\begin{frame}
+\frametitle{References}
+\footnotesize{
+\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be nserted manually as below
+\bibitem[Mastrobouni, 2009]{p1} Giovanni Mastrobouni (2009)
+\newblock Labor supply effects of the recent social security benefit cuts: empirical estimates using cohort discontinuities.
+\newblock \emph{Journal Name} 12(3), 45 -- 678.
+\end{thebibliography}
+}
+\end{frame}
+
+\begin{frame}[t, allowframebreaks]
+\frametitle{References}
+\bibliographystyle{amsalpha}
+\bibliography{referencias}
+\end{frame}
+
 
 \end{document}
