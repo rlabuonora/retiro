@@ -34,6 +34,8 @@ Mencionar alguna estadística de participación de los mayores.
 
 El gráfico siguiente muestra la edad de retiro proyectadas de los países de la OCDE entre 1950 a 2050. El mínimo se alcanzó en 1993, y no se espera que se recuperen las edades de 1950 hasta 2050.
 
+![](imgs/pensions-glance-fig1.6.png)
+
 Si bien las edades de eligibilidad para el retiro caen rápido, es difícil encontrar consensos para subrilas.
 
 ## Esperanza de vida de los mayores y tiempo esperado de retiro
@@ -156,7 +158,7 @@ Es la diferencia máxima entre la riqueza de la seguridad social de retirarse ho
         
  Propuesta por @stock90: Option Value.
  
- Resultados empíricos usando estas medidas (microestimation?).
+ Resultados empíricos usando estas medidas (@gruber04).
 
 
 
