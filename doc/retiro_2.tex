@@ -1,3 +1,6 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
 \documentclass[]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -6,28 +9,31 @@
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
+  \usepackage{unicode-math}
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
 \IfFileExists{microtype.sty}{%
-\usepackage{microtype}
+\usepackage[]{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage[margin=1in]{geometry}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
 \usepackage{hyperref}
-\hypersetup{unicode=true,
+\hypersetup{
             pdftitle={Incentivos al Retiro},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -37,12 +43,6 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -57,30 +57,15 @@
 \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
-%%% Use protect on footnotes to avoid problems with footnotes in titles
-\let\rmarkdownfootnote\footnote%
-\def\footnote{\protect\rmarkdownfootnote}
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
 
-%%% Change title format to be more compact
-\usepackage{titling}
 
-% Create subtitle command for use in maketitle
-\providecommand{\subtitle}[1]{
-  \posttitle{
-    \begin{center}\large#1\end{center}
-    }
-}
-
-\setlength{\droptitle}{-2em}
-
-  \title{Incentivos al Retiro}
-    \pretitle{\vspace{\droptitle}\centering\huge}
-  \posttitle{\par}
-    \author{}
-    \preauthor{}\postauthor{}
-    \date{}
-    \predate{}\postdate{}
-  
+\title{Incentivos al Retiro}
+\author{}
+\date{\vspace{-2.5em}}
 
 \begin{document}
 \maketitle
@@ -89,7 +74,8 @@
 \setcounter{tocdepth}{3}
 \tableofcontents
 }
-\section{Introducción}\label{introduccion}
+\hypertarget{introducciuxf3n}{%
+\section{Introducción}\label{introducciuxf3n}}
 
 Importancia de alargar vida laboral, OECD (2011).
 
@@ -103,76 +89,108 @@ mercado laboral.
 
 Presentamos la evidencia de los resultados de estas políticas.
 
-\section{Tendencias Demográficas}\label{tendencias-demograficas}
+\hypertarget{tendencias}{%
+\section{Tendencias}\label{tendencias}}
 
-\subsection{Tendencias en las edad de retiro en el
-mundo}\label{tendencias-en-las-edad-de-retiro-en-el-mundo}
+Envejecimiento poblacional.
+
+\hypertarget{esperanza-de-vida-de-los-mayores-y-tiempo-esperado-de-retiro}{%
+\subsection{Esperanza de vida de los mayores y tiempo esperado de
+retiro}\label{esperanza-de-vida-de-los-mayores-y-tiempo-esperado-de-retiro}}
+
+Si bien en la primera parte del siglo pasado los aumentos en la
+esperanza de vida fueron causados principalemnte por caídas en la
+mortalidad infantil, a partir de mitad de siglo, también hubo caídas
+importantes en la mortalidad de los mayores (OECD (2011)).
+
+En efecto, en los países de la OCDE, la esperanza de vida a los 65 años
+de edad aumentó 3.9 años para los hombres y 5.4 para las mujeres entre
+1960 y 2010 (OECD (2011)). En Uruguay, COMPLETAR.
+
+\hypertarget{la-actividad-laboral-de-los-mayores}{%
+\subsection{La actividad laboral de los
+mayores}\label{la-actividad-laboral-de-los-mayores}}
+
+Otro factor que impacta directamente en la sostenibilidad financiera de
+los sistemas jubilatorios, es la participación laboral de los mayores,
+sensiblemente menores a las de los más jóvenes.
+
+La participación de los mayores en el mercado laboral ha seguido un
+patrón de U desde los años 70s del siglo XX. La caída pronunciada hasta
+los años 90s se revirtió en mucho países, conformando un patrón en forma
+de U (Börsch-Supan and Coile (2019)). En los apartados X y Y,
+presentamos la evidencia disponible sobre el impacto de los incentivos
+producidos por los sistemas previsionales en este fenómeno.
+
+El siguiente gráfico muestra el aumento de la tasa de actividad en las
+personas de entre 55 y 64 años en varios países.
+
+Sin embargo, estos aumentos no compensan el aumento en la longevidad
+mencionados anteriormente. Aún con edades de retiro efectivas mayores,
+OCDE proyecta que la esperanza de vida luego de la edad normal de retiro
+aumente en la mayoría de los países miembro (OECD (2019)).
+
+Sin embargo, en 2011 sólo 5 países de la OCDE -Hungría, Italia, Corea
+del Sur, Turquía y el Reino Unido- habían logrado aumentar estas edades
+suficiente para estabilizar la duración esperada de los períodos de
+retiro. El aumento del tiempo esperado de retiro amenaza la
+sostenibilidad fiscal de los sistemas previsionales de reparto.
+
+\hypertarget{poluxedticas-para-favorecer-el-empleo-de-los-mayores}{%
+\subsection{Políticas para favorecer el empleo de los
+mayores}\label{poluxedticas-para-favorecer-el-empleo-de-los-mayores}}
+
+En la década de 1970 y 1980 muchos países desarrollados flexibilizaron
+el acceso a las jubilaciones para favorecer el empleo juvenil. (CITA).
+Esta flexibilización se hizo mediante la rebaja de las edades mínimas de
+eligibilidad, el acceso a otros programas de seguridad social y la
+eliminación de ajustes actuariales por el retiro temprano.
+
+Si bien los efectos esperados sobre el empleo juvenil no se
+materializaron, si se produjo una caída importante de la edad de retiro
+del mercado laboral. El gráfico siguiente muestra la edad de retiro
+proyectadas de los países de la OCDE entre 1950 a 2050. El mínimo se
+alcanzó en 1993, y no se espera que se recuperen las edades de 1950
+hasta 2050.
+
+\includegraphics{imgs/pensions-glance-fig1.6.png}
 
 En la década de 1990 empezó a surgir evidencia de que las reglas de los
 sistemas jubilatorios generaban incentivos al retiro temprano y eran uno
 de los principales factores que explicaban la caída en la participación
-laboral de los mayores de 55 años.
+laboral de los mayores (({\textbf{???}})).
 
-Mencionar alguna estadística de participación de los mayores.
+Esta caída, combinada con el aumento en la longevidad mencionado antes
+impactaba directamente en la sostenibilidad de los sistemas jubilatorios
+de reparto.
 
-El gráfico siguiente muestra la edad de retiro proyectadas de los países
-de la OCDE entre 1950 a 2050. El mínimo se alcanzó en 1993, y no se
-espera que se recuperen las edades de 1950 hasta 2050.
+Para aliviar este problem, a partir de los años 2000 se empiezan a
+implementar medidas para revertir este fenómeno, favoreciendo el
+alargamiento de la vida laboral de las personas. En particular, las
+edades a los que los trabajadores pueden acceder a distintos niveles de
+beneficios en los sistemas jubilatorios son un parámetro clave para la
+decisión de los trabajadores de retirarse del mercado laboral y/o
+acogerse a estos beneficios.
 
-\begin{figure}
-\centering
-\includegraphics{imgs/pensions-glance-fig1.6.png}
-\caption{}
-\end{figure}
+\hypertarget{edad-muxednima-de-retiro}{%
+\subsubsection{Edad Mínima de Retiro}\label{edad-muxednima-de-retiro}}
 
-Si bien las edades de eligibilidad para el retiro caen rápido, es
-difícil encontrar consensos para subrilas.
+En este contexto, La edad mínima de retiro surge como un parámetro clave
+en cualquier sistema previsional. Es la menor edad a la que un
+trabajador puede recibir una prestación del sistema jubilatorio. Si bien
+este suele ser un parámetro muy saliente en todo sistema previsional, es
+usual que los trabajadores cuenten con otros vías para retirarse del
+mercado laboral antes de esta edad (seguro de desempleo prolongado, ,
+seguro de enfermedad, pensiones por invalidez, etc.). En muchos países,
+estas vías terminan funcionando como esquemas de retiro temprano.
 
-\subsection{Esperanza de vida de los mayores y tiempo esperado de
-retiro}\label{esperanza-de-vida-de-los-mayores-y-tiempo-esperado-de-retiro}
+El siguiente gráfico muestra la EMR de los países de la OCDE en 2018. El
+promedio es XX. La tendencia en las últimas décadas fue aumentar esta
+edad (OECD (2019)).
 
-Si bien en la primera parte del S. XX las aumentos en la esperanza de
-vida fueron por caídas en la mortalidad infantil, en la segunda mitad de
-siglo hubo caídas importantes de la mortalidad de los mayores de 55.
-Entre 1960 y 2010, la esperanza de vida a los 65 aumentó 3.9 años para
-los hombres y 5.4 para las mujeres en los países de la OCDE (OECD
-(2011)).
-
-En Uruguay, COMPLETAR.
-
-Esto implica que, de no cambiar las edades de retiro, la duración
-esperada del período en el que las personas perciben ingresos de los
-sistemas jubilatorios aumentará, poniendo en riesgo la sostenibilidad
-fiscal de estos sistemas.
-
-Para aliviar este problema, muchos países implementaron aumentos en las
-edades en las que los trabajadores pueden acceder a los beneficios de
-los sistemas previsionales. Sin embargo, en 2011 sólo 5 países de la
-OCDE -Hungría, Italia, Corea del Sur, Turquía y el Reino Unido- habían
-logrado aumentar estas edades suficiente para estabilizar la duración
-esperada de los períodos de retiro.
-
-\section{Parámetros de la Seguridad
-Social}\label{parametros-de-la-seguridad-social}
-
-Los sistemas jubilatorios difieren en su diseño, sus fuentes de
-financiamiento y en los parámetros clave que rigen su funcionamiento. En
-este apartado definimos los parámetros de interés para este trabajo: la
-edad mínima de retiro, la edad normal de retiro y los incentivos
-financieros para diferir el retiro.
-
-\subsection{Edad Mínima de Retiro}\label{edad-minima-de-retiro}
-
-Es la menor edad a la que un trabajador puede recibir una prestación del
-sistema jubilatorio. Si bien este suele ser un parámetro muy saliente en
-todo sistema previsional, es usual que los trabajadores cuenten con
-otros vías para retirarse del mercado laboral antes de esta edad (seguro
-de desempleo prolongado, , seguro de enfermedad, pensiones por
-invalidez, etc.). En muchos países, estas vías terminan funcionando como
-esquemas de retiro temprano.
-
-\subsection{Edad Normal de Retiro e incentivos a diferir el
-retiro}\label{edad-normal-de-retiro-e-incentivos-a-diferir-el-retiro}
+\hypertarget{edad-normal-de-retiro-e-incentivos-a-diferir-el-retiro}{%
+\subsubsection{Edad Normal de Retiro e incentivos a diferir el
+retiro}\label{edad-normal-de-retiro-e-incentivos-a-diferir-el-retiro}}
 
 La Edad Normal de Retiro es la menor edad a la que un trabajador puede
 acceder a una prestación del sistema jubilatorio sin recibir
@@ -188,10 +206,19 @@ La estructura de ests ajustes definen los incentivos a diferir el
 retiro, ya que penalizan el retiro temprano y estimulan el retiro
 tardío.
 
-\section{Impacto de la Seguridad Social en la oferta de
-trabajo}\label{impacto-de-la-seguridad-social-en-la-oferta-de-trabajo}
+{[}Pensions at a glance 2019 fig 1.12{]}
 
-\subsection{Marco Teórico}\label{marco-teorico}
+El siguiente gráfico muestra el aumento en la tasa efectiva y normal de
+retiro promedio en los países de la OCDE. ({\textbf{???}})
+
+{[}Pensions at a glance fig 2.6.{]}
+
+\hypertarget{impacto-de-la-seguridad-social-en-la-oferta-de-trabajo}{%
+\section{Impacto de la Seguridad Social en la oferta de
+trabajo}\label{impacto-de-la-seguridad-social-en-la-oferta-de-trabajo}}
+
+\hypertarget{marco-teuxf3rico}{%
+\subsection{Marco Teórico}\label{marco-teuxf3rico}}
 
 El marco teórico mas usado para analizar el impacto de los parámetros de
 los sistemas previsionales en las decisiones de retiro es un modelo en
@@ -235,8 +262,9 @@ trabajo para los trabajadores. Estos aspectos implican tomar en cuenta
 la demanda de trabajo de parte de las empresas y la discriminación que
 pueden sufrir los trabajadores mayores en el mercado de trabajo.
 
+\hypertarget{midiendo-los-incentivos-de-la-seguridad-social}{%
 \subsection{Midiendo los incentivos de la Seguridad
-Social}\label{midiendo-los-incentivos-de-la-seguridad-social}
+Social}\label{midiendo-los-incentivos-de-la-seguridad-social}}
 
 Importancia de elegir los incentivos correctamente desde el punto de
 vista de la equidad y la eficiencia. La eficiencia implica que los
@@ -247,10 +275,8 @@ retiro temprano.
 La equidad implica asegurar un nivel de consumo adecuado a todos los
 mayores.
 
-Desde la década del 80s se acumula evidencia sobre el impacto de la
-Seguridad Social en las decisiones de oferta laboral y retiro.
-
-\subsubsection{Tasa de Reemplazo}\label{tasa-de-reemplazo}
+\hypertarget{tasa-de-reemplazo}{%
+\subsubsection{Tasa de Reemplazo}\label{tasa-de-reemplazo}}
 
 El indicador más simple para medir los incentivos que enfrentan los
 trabajadores a la hora de retirarse es la tasa de reemplazo. Esta tasa
@@ -262,8 +288,9 @@ En la mayor parte esta tasa es creciente con la edad. En Uruguay,
 COMPLETAR. Sin embargo, este no es el único parámetro que los
 trabajadores tienen en cuenta cuando deciden retirarse.
 
+\hypertarget{riqueza-jubilatoria-y-el-impuesto-impluxedcito-al-trabajo}{%
 \subsubsection{Riqueza Jubilatoria y el impuesto implícito al
-trabajo}\label{riqueza-jubilatoria-y-el-impuesto-implicito-al-trabajo}
+trabajo}\label{riqueza-jubilatoria-y-el-impuesto-impluxedcito-al-trabajo}}
 
 Para entender mejor esta decisión, es necesario tomar en cuenta el
 concepto de Riqueza de la Seguridad Social o Riqueza Jubilatoria. Esto
@@ -334,8 +361,9 @@ independiente de la decisión de acogerse a los beneficios del sistema
 jubilatorio (UK, Noruega), por lo que la definición de retiro no implica
 una sino dos decisiones.
 
+\hypertarget{medidas-muxe1s-sofisticadas-peak-value-y-option-value}{%
 \subsubsection{Medidas más sofisticadas: Peak Value y Option
-Value}\label{medidas-mas-sofisticadas-peak-value-y-option-value}
+Value}\label{medidas-muxe1s-sofisticadas-peak-value-y-option-value}}
 
 El principal problema que tiene es que esta medida solo mira un período
 para adelante, pero la SSA no se incrementa monotónicamente, sino que
@@ -366,7 +394,8 @@ Resultados empíricos usando estas medidas (Gruber and Wise (2004)).
   Salida de Microestimation
 \end{itemize}
 
-\subsection{Evidencia Reciente}\label{evidencia-reciente}
+\hypertarget{evidencia-reciente}{%
+\subsection{Evidencia Reciente}\label{evidencia-reciente}}
 
 Problemas de la evidencia anterior. Ex-ante, basada en simulaciones. La
 evidencia más reciente consiste en evaluar los efectos observados de
@@ -391,18 +420,21 @@ Estas reformas generaron una literatura creciente en los últimos años
 que usa diseños cuasi-experimentales para evaluar el impacto de estos
 cambios paramétricos en la participación laboral de los individuos.
 
+\hypertarget{impacto-de-edad-muxednima-de-retiro}{%
 \subsubsection{Impacto de Edad Mínima de
-Retiro}\label{impacto-de-edad-minima-de-retiro}
+Retiro}\label{impacto-de-edad-muxednima-de-retiro}}
 
 Rabaté, Staubli, \ldots{}
 
+\hypertarget{impacto-de-incentivos-financieros-y-cambios-en-la-edad-normal-de-retiro}{%
 \subsubsection{Impacto de incentivos financieros y cambios en la Edad
 Normal de
-Retiro}\label{impacto-de-incentivos-financieros-y-cambios-en-la-edad-normal-de-retiro}
+Retiro}\label{impacto-de-incentivos-financieros-y-cambios-en-la-edad-normal-de-retiro}}
 
 Resumen de Mastrobuoni (2009), Hanel (2010).
 
-\section{Lecciones para Uruguay}\label{lecciones-para-uruguay}
+\hypertarget{lecciones-para-uruguay}{%
+\section{Lecciones para Uruguay}\label{lecciones-para-uruguay}}
 
 \begin{itemize}
 \tightlist
@@ -421,7 +453,8 @@ Resumen de Mastrobuoni (2009), Hanel (2010).
   Salud y educación, restricciones en las oportunidades de empleo.
 \end{itemize}
 
-\section{Glosario}\label{glosario}
+\hypertarget{glosario}{%
+\section{Glosario}\label{glosario}}
 
 \begin{description}
 \item[Edad Efectiva de Retiro]
@@ -446,30 +479,40 @@ Es el valor descontado al momento del retiro de las prestaciones que
 recibe el contribuyente del sistema jubilatorio.
 \end{description}
 
-\section*{Referencias}\label{referencias}
+\hypertarget{referencias}{%
+\section*{Referencias}\label{referencias}}
 \addcontentsline{toc}{section}{Referencias}
 
 \hypertarget{refs}{}
-\hypertarget{ref-gruber04}{}
+\leavevmode\hypertarget{ref-NBERc14190}{}%
+Börsch-Supan, Axel, and Courtney Coile. 2019. ``Introduction to 'Social
+Security Programs and Retirement Around the World: Reforms and
+Retirement Incentives'.'' In \emph{Social Security Programs and
+Retirement Around the World: Reforms and Retirement Incentives}.
+University of Chicago Press. \url{http://www.nber.org/chapters/c14190}.
+
+\leavevmode\hypertarget{ref-gruber04}{}%
 Gruber, Jonathan, and David Wise. 2004. ``Social Security Programs and
 Retirement Around the World: Micro Estimation.''
 
-\hypertarget{ref-hanel09}{}
+\leavevmode\hypertarget{ref-hanel09}{}%
 Hanel, Barbara. 2010. ``Financial Incentives to Postpone Retirement and
-Further Effects on Employment---evidence from a Natural Experiment.''
+Further Effects on Employment---Evidence from a Natural Experiment.''
 \emph{Labour Economics} 17: 474--86.
 
-\hypertarget{ref-mastrobouni09}{}
+\leavevmode\hypertarget{ref-mastrobouni09}{}%
 Mastrobuoni, Giovanni. 2009. ``Labor Supply Effects of the Recent Social
 Security Benefit Cuts: Empirical Estimates Using Cohort
 Discontinuities.'' \emph{J. Public Econ.} 93 (11-12): 1224--33.
 
-\hypertarget{ref-ocde11}{}
+\leavevmode\hypertarget{ref-ocde11}{}%
 OECD. 2011. ``Pensions at a Glance 2011.''
 
-\hypertarget{ref-stock90}{}
+\leavevmode\hypertarget{ref-ocde19}{}%
+---------. 2019. ``Pensions at a Glance 2019.''
+
+\leavevmode\hypertarget{ref-stock90}{}%
 Stock, J.H., and D.A. Wise. 1990. ``Pensions, the Option Value of Work,
 and Retirement.'' \emph{Econometrica} 58 (5): 1151--1180.
-
 
 \end{document}
