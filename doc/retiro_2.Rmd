@@ -24,42 +24,54 @@ Muchos países implementaron cambios en el diseño y los parámetros de sus sist
 
 Presentamos la evidencia de los resultados de estas políticas.
 
-# Tendencias Demográficas
+# Tendencias
 
-## Tendencias en las edad de retiro en el mundo
-
-En la década de 1990 empezó a surgir evidencia de que las reglas de los sistemas jubilatorios generaban incentivos al retiro temprano y eran uno de los principales factores que explicaban la caída en la participación laboral de los mayores de 55 años.
-
-Mencionar alguna estadística de participación de los mayores.
-
-El gráfico siguiente muestra la edad de retiro proyectadas de los países de la OCDE entre 1950 a 2050. El mínimo se alcanzó en 1993, y no se espera que se recuperen las edades de 1950 hasta 2050.
-
-![](imgs/pensions-glance-fig1.6.png)
-
-Si bien las edades de eligibilidad para el retiro caen rápido, es difícil encontrar consensos para subrilas.
+Envejecimiento poblacional.
 
 ## Esperanza de vida de los mayores y tiempo esperado de retiro
 
-Si bien en la primera parte del S. XX las aumentos en la esperanza de vida fueron por caídas en la mortalidad infantil,  en la segunda mitad de siglo hubo caídas importantes de la mortalidad de los mayores de 55. Entre 1960 y 2010, la esperanza de vida a los 65 aumentó 3.9 años para los hombres y 5.4 para las mujeres en los países de la OCDE (@ocde11).
+Si bien en la primera parte del siglo pasado los aumentos en la esperanza de vida fueron causados principalemnte por caídas en la mortalidad infantil, a partir de mitad de siglo, también hubo caídas importantes en la mortalidad de los mayores (@ocde11).
 
-En Uruguay, COMPLETAR.
+En efecto, en los países de la OCDE, la esperanza de vida a los 65 años de edad aumentó 3.9 años para los hombres y 5.4 para las mujeres entre 1960 y 2010 (@ocde11). En Uruguay, COMPLETAR.
 
-Esto implica que, de no cambiar las edades de retiro, la duración esperada del período en el que las personas perciben ingresos de los sistemas jubilatorios aumentará, poniendo en riesgo la sostenibilidad fiscal de estos sistemas.
+## La actividad laboral de los mayores
 
-Para aliviar este problema, muchos países implementaron aumentos en las edades en las que los trabajadores pueden acceder a los beneficios de los sistemas previsionales. Sin embargo, en 2011 sólo 5 países de la OCDE -Hungría, Italia, Corea del Sur, Turquía y el Reino Unido- habían logrado aumentar estas edades suficiente para estabilizar la duración esperada de los períodos de retiro.
+Otro factor que impacta directamente en la sostenibilidad financiera de los sistemas jubilatorios, es la participación laboral de los mayores, sensiblemente menores a las de los más jóvenes. 
 
+La participación de los mayores en el mercado laboral ha seguido un patrón de U desde los años 70s del siglo XX. La caída pronunciada hasta los años 90s se revirtió en mucho países, conformando un patrón en forma de U (@NBERc14190). En los apartados X y Y, presentamos la evidencia disponible sobre el impacto de los incentivos producidos por los sistemas previsionales en este fenómeno.
 
-# Parámetros de la Seguridad Social
+El siguiente gráfico muestra el aumento de la tasa de actividad en las personas de entre 55 y 64 años en varios países.
 
-Los sistemas jubilatorios difieren en su diseño, sus fuentes de financiamiento y en los parámetros clave que rigen su funcionamiento. En este apartado definimos los parámetros de interés para este trabajo: la edad mínima de retiro, la edad normal de retiro y los incentivos financieros para diferir el retiro.
+Sin embargo, estos aumentos no compensan el aumento en la longevidad mencionados anteriormente. Aún con edades de retiro efectivas mayores, OCDE proyecta que la esperanza de vida luego de la edad normal de retiro aumente en la mayoría de los países miembro (@ocde19). 
 
-
-## Edad Mínima de Retiro
-
-Es la menor edad a la que un trabajador puede recibir una prestación del sistema jubilatorio. Si bien este suele ser un parámetro muy saliente en todo sistema previsional, es usual que los trabajadores cuenten con otros vías para retirarse del mercado laboral antes de esta edad (seguro de desempleo prolongado, , seguro de enfermedad, pensiones por invalidez, etc.). En muchos países, estas vías terminan funcionando como esquemas de retiro temprano.
+Sin embargo, en 2011 sólo 5 países de la OCDE -Hungría, Italia, Corea del Sur, Turquía y el Reino Unido- habían logrado aumentar estas edades suficiente para estabilizar la duración esperada de los períodos de retiro. El aumento del tiempo esperado de retiro amenaza la sostenibilidad fiscal de los sistemas previsionales de reparto.
 
 
-## Edad Normal de Retiro e incentivos a diferir el retiro
+
+## Políticas para favorecer el empleo de los mayores
+
+
+En la década de 1970 y 1980 muchos países desarrollados flexibilizaron el acceso a las jubilaciones para favorecer el empleo juvenil. (CITA). Esta flexibilización se hizo mediante la rebaja de las edades mínimas de eligibilidad, el acceso a otros programas de seguridad social y la eliminación de ajustes actuariales por el retiro temprano. 
+
+Si bien los efectos esperados sobre el empleo juvenil no se materializaron, si se produjo una caída importante de la edad de retiro del mercado laboral. El gráfico siguiente muestra la edad de retiro proyectadas de los países de la OCDE entre 1950 a 2050. El mínimo se alcanzó en 1993, y no se espera que se recuperen las edades de 1950 hasta 2050.
+
+![](imgs/pensions-glance-fig1.6.png)
+
+En la década de 1990 empezó a surgir evidencia de que las reglas de los sistemas jubilatorios generaban incentivos al retiro temprano y eran uno de los principales factores que explicaban la caída en la participación laboral de los mayores (@gruber99).
+
+Esta caída, combinada con el aumento en la longevidad mencionado antes impactaba directamente en la sostenibilidad de los sistemas jubilatorios de reparto.
+
+Para aliviar este problem, a partir de los años 2000 se empiezan a implementar medidas para revertir este fenómeno, favoreciendo el alargamiento de la vida laboral de las personas. En particular, las edades a los que los trabajadores pueden acceder a distintos niveles de beneficios en los sistemas jubilatorios son un parámetro clave para la decisión de los trabajadores de retirarse del mercado laboral y/o acogerse a estos beneficios.
+
+### Edad Mínima de Retiro
+
+En este contexto, La edad mínima de retiro surge como un parámetro clave en cualquier sistema previsional. Es la menor edad a la que un trabajador puede recibir una prestación del sistema jubilatorio. Si bien este suele ser un parámetro muy saliente en todo sistema previsional, es usual que los trabajadores cuenten con otros vías para retirarse del mercado laboral antes de esta edad (seguro de desempleo prolongado, , seguro de enfermedad, pensiones por invalidez, etc.). En muchos países, estas vías terminan funcionando como esquemas de retiro temprano.
+
+El siguiente gráfico muestra la EMR de los países de la OCDE en 2018. El promedio es XX. La tendencia en las últimas décadas fue aumentar esta edad (@ocde19).
+
+
+
+### Edad Normal de Retiro e incentivos a diferir el retiro
 
 La Edad Normal de Retiro es la menor edad a la que un trabajador puede acceder a una prestación del sistema jubilatorio sin recibir penalizaciones por retiro temprano. Uno de los hechos estilizados encontrado en la literatura es que una gran proporción de los trabajadores se retira la EMR o la ENR. 
 
@@ -67,6 +79,12 @@ La Edad Normal de Retiro es la menor edad a la que un trabajador puede acceder a
 Para Uruguay, ver @forteza. En este contexto, aumentar estas edades surge como una medida con potencial de ser altamente eficaz para prolongar la vida laboral de los trabajadores.
 
 La estructura de ests ajustes definen los incentivos a diferir el retiro, ya que penalizan el retiro temprano y estimulan el retiro tardío.
+
+[Pensions at a glance 2019 fig 1.12]
+
+El siguiente gráfico muestra el aumento en la tasa efectiva y normal de retiro promedio en los países de la OCDE. @ocde17
+
+[Pensions at a glance fig 2.6.]
 
 
 # Impacto de la Seguridad Social en la oferta de trabajo
@@ -95,8 +113,6 @@ Importancia de elegir los incentivos correctamente desde el punto de vista de la
 
 La equidad implica asegurar un nivel de consumo adecuado a todos los mayores. 
 
-
-Desde la década del 80s se acumula evidencia sobre el impacto de la Seguridad Social en las decisiones de oferta laboral y retiro. 
 
 ### Tasa de Reemplazo
 
@@ -159,10 +175,6 @@ Es la diferencia máxima entre la riqueza de la seguridad social de retirarse ho
  Propuesta por @stock90: Option Value.
  
  Resultados empíricos usando estas medidas (@gruber04).
-
-
-
-
 
 
 
